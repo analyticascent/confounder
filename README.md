@@ -19,3 +19,48 @@ Unstructured data analysis could be used to identify word patterns that indicate
 
 ![Scientific Errors](http://www.compoundchem.com/wp-content/uploads/2014/04/A-Rough-Guide-to-Spotting-Bad-Science-2015.png "A Rough Guide to Spotting Bad Science")
 
+___
+
+#### An Example for Laypersons
+
+Below is a crude way of checking for a statistical error using a simple script - run it here to see results: https://repl.it/C4nL
+
+```python
+# A simple demo of how checking for the absence or presence of terms can indicate if
+# an error was made in an article, study, or blog post on college degree earnings.
+
+print
+print
+print 'This checks if the word *skewed* is in a string of text, which can be used to infer whether or not an article about college degree earnings took into account that a small handful of wealthy super-earners skew the average earnings of college degree recipients.'
+
+article_1 = ['A college degree is worth a million over time.']
+
+article_2 = ['The million dollar average is skewed by super-earners.']
+
+# the code below turns the words in each sentence into a list of strings
+
+word_list_1 = [word for line in article_1 for word in line.split()]
+
+word_list_2 = [word for line in article_2 for word in line.split()]
+
+print
+print
+print 'Did article_1 mention super-earners skewing average earnings?'
+print
+print '>>>', 'skewed' in word_list_1 # checks if 'skewed' is in the wordlist for article_1 [False]
+print
+print
+print 'Did article_2 mention super-earners skewing average earnings?'
+print
+print '>>>', 'skewed' in word_list_2 # checks if 'skewed' is in the wordlist for article_2 [True]
+print
+print
+print '-----------------------------------------------------------'
+print
+print
+print 'article_1 says \"A college degree is worth a million over your lifetime.\"'
+print
+print 'article_2 says \"The million dollar average is skewed by super-earners.\"'
+print
+print
+```
