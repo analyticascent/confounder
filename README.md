@@ -64,3 +64,7 @@ print 'article_2 says \"The million dollar average is skewed by super-earners.\"
 print
 print
 ```
+
+All the above script does is convert raw text into a list of words, then check if a keyword is present in that list. What confounder will consist of however is more focused on machine learning. Early testing will likely utilize a naive bayes classifier and/or logistic regression model to avoid having to manually list terms and check them one by one (which is a drawback of the method demonstrated above).
+
+Once a suitable program is developed, all someone would need is domain knowledge of the research area to effectively use it.
