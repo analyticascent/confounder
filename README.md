@@ -1,7 +1,7 @@
 # Confounder
 A hobby project for identifying confounding factors and excessive aggregation made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do for science, industry, and public policy.
 
-![Research Methodology](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
+![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
 The inspiration for this project stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
