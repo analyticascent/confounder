@@ -13,6 +13,18 @@ Conceptually this project follows the following procedural steps for any given t
 * Determine what keywords or raw text patterns are associated with accounting for those confounders (or failing to)
 * Write scripts which will check for the absense or presence of those phrases and/or text patterns in passages
 
+Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn. Studies featured in a meta-analysis on a given topic will be used as a train/test set.
+
+![Document-Term Matrix](http://mlg.postech.ac.kr/static/research/nmf_cluster1.PNG)
+
+The working assumption behind the early testing is rather blunt: *Good studies will have term frequencies that are distinct from bad ones.* Any studies featured in a meta-analysis that described what the study did or did not account for can easily be used to train a classifier. If academic studies on a topic that... 
+
+* Fail to account for sufficient confounders
+* Do not effectively establish a statistical association between hypothesized independent and responding variables
+* Do not accurately distinguish the order of causation between the two variables 
+
+...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
+
 #### Applications for Economic, Scientific, or Sociological Research
 
 Unstructured data analysis could be used to identify word patterns that indicate whether a confounding factor in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
@@ -65,6 +77,6 @@ print
 print
 ```
 
-All the above script does is convert raw text into a list of words, then check if a keyword is present in that list. What confounder will consist of however is more focused on machine learning. Early testing will likely utilize a naive bayes classifier and/or logistic regression model to avoid having to manually list terms and check them one by one (which is a drawback of the method demonstrated above).
+All the above script does is convert raw text into a list of words, then check if a keyword is present in that list. What confounder will consist of however is more focused on machine learning. Early testing is utilizing a naive bayes classifier to avoid having to manually list keywords and check them one by one (which is a drawback of the simple code demonstrated above).
 
 Once a suitable program is developed, all someone would need is domain knowledge of the research area to effectively use it.
