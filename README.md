@@ -1,6 +1,8 @@
 # Confounder
 A hobby project for identifying confounding factors and excessive aggregation made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do for science, industry, and public policy.
 
+![Research Methodology](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
+
 The inspiration for this project stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
 [**Confounder:**](https://en.wikipedia.org/wiki/Confounding) This could be described as being an additional variable that may distort the true causal relationship between a dependent and independent variable. Confounders present a major problem for studies that are supposed to control for variables that may distort cause and effect relationships. Accurate studies require that as many confounders are accounted for.
