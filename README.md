@@ -1,5 +1,5 @@
 # Confounder
-A project for identifying confounding factors and excessive aggregation made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do to validate quantitative research on a massive scale. The goal is to code/train classifiers to infer whether the following was done in any given study:
+A project for identifying confounding and aggregation errors made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do to validate quantitative research on a massive scale. The goal is to code/train classifiers to infer whether the following was done in any given study:
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
