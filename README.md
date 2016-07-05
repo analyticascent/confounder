@@ -1,15 +1,15 @@
 # Confounder
-A project for identifying confounding and aggregation errors made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do to validate quantitative research on a massive scale. The goal is to code/train classifiers to infer whether the following was done in any given study:
+A project for identifying confounding and aggregation errors made in articles, studies, and blog posts. This is a demo on what unstructured data analysis can do to validate quantitative research on a massive scale. **The goal is to code/train classifiers to infer whether the following was done in any given study:**
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
-The inspiration for this project stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
+Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
-[**Confounder:**](https://en.wikipedia.org/wiki/Confounding) This could be described as being an additional variable that may distort the true causal relationship between a dependent and independent variable. Confounders present a major problem for studies that are supposed to control for variables that may distort cause and effect relationships. Accurate studies require that as many confounders are accounted for.
+[Confounders](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between a dependent and independent variable. Accurate studies require that as many confounders are accounted for, otherwise the claim that "X causes y" could be false. Many things must be taking into account before causality can be inferred:
 
 ![Variables](https://significantlystatistical.files.wordpress.com/2014/12/slide-31.png "Variable Types")
 
-Conceptually this project follows the following procedural steps for any given topic of research:
+*Conceptually* this project follows the following procedural steps for any given topic of research:
 
 * List all potential confounders that should have been controlled for in a study or article making a causal claim
 * Determine what keywords or raw text patterns are associated with accounting for those confounders (or failing to)
