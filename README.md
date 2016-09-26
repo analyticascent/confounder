@@ -1,9 +1,16 @@
-# Confounder
-This project seeks to identify **measurement,** **confounding,** and **time series errors** made in text passages that concern any form of quantitative inference. These passages could be anything from academic studies to blog posts, and topics may range from economic issues to social science studies. Overall, this is a demo of what unstructured data analysis can do to validate quantitative research on a massive scale. **The goal is to code/train classifiers to infer whether the following was done in any given study:**
+# Confounder - draft 1.0
+-----
+### *Automating methodological reviews of existing research*
+
+&nbsp;
+
+**Confounder** is a proof-of-concept in unstructured data analysis. The aim is to reduce the time it takes to analyze existing bodies of quantitative research on a topic; specifically in the context of determining what the findings of more reliable studies tend to be. *Quantitative* research refers to any study that attempts to find the association (or lack thereof) between one variable (**X**) and another (**y**). A study is considered to be more *reliable* if it more accurately measures *causal* in addition to *responding* variables, accounts for more significant *controlled* variables, and also makes a careful effort to find the *causal order* between both variables (ruling out that **y** is actually what causes **X**).
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
-Additionally, **aggregation** and **sampling errors** can also be taken into account, though it must be stressed that the magnitude of such flaws is more open to interpretation than the three methodological issues pictured above. Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
+The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this whitepaper. The project is particularly focused on simulating a *meta-analysis* of existing causal research on a topic--performed as a *methodological review* of existing evidence.
+
+Additionally, **aggregation** and **sampling errors** can also be taken into account, but it must be stressed that the magnitude of such flaws is more open to interpretation than the three methodological issues pictured above. Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
 [Confounders](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between a dependent and independent variable. Accurate studies require that as many confounders are accounted for, otherwise the claim that "X causes y" could be false. Many things must be taking into account before causality can be inferred:
 
