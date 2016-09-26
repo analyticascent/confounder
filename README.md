@@ -12,7 +12,7 @@ The three methodological issues refered to above will be called **measurement,**
 
 Additionally, **aggregation** and **sampling errors** can also be taken into account, but it must be stressed that the magnitude of such flaws is more open to interpretation than the three methodological issues pictured above. Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
-[Confounders](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between a dependent and independent variable. Accurate studies require that as many confounders are accounted for, otherwise the claim that "X causes y" could be false. Many things must be taking into account before causality can be inferred:
+[Confounders](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred:
 
 ![Variables](https://significantlystatistical.files.wordpress.com/2014/12/slide-31.png "Variable Types")
 
