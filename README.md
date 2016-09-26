@@ -44,28 +44,30 @@ ___
 
 ## In Summary: clarifying relevant procedural steps
 
- **1.** Decide on an area of causal research (does X cause y?)
+So how exactly would a working version of this get put to use? Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
- **2.** Determine how X and y are measured in existing studies
+ **1.** *Decide on an area of causal research (does X cause y?)*
 
- **3.** If proxies of any kind are used, determine accuracy
+ **2.** *Determine how X and y are measured in existing studies*
 
- **4.** List all statistically significant control variables
+ **3.** *If proxies of any kind are used, determine accuracy*
+
+ **4.** *List all statistically significant control variables*
  
- **5.** Determine how causal order of variables may be sorted
+ **5.** *Determine how causal order of variables may be sorted*
  
  --
  
- **6.** Gather as much research articles related to #1 above
+ **6.** *Gather as much research articles related to #1 above*
  
- **7.** Find which studies met the **measurement** criteria
+ **7.** *Find which studies meet the* **measurement** *criteria*
  
- **8.** Find which studies controlled for what confounders
+ **8.** *Find which studies controlled for what confounders*
  
- **9.** Find which studies performed time-series analyses
+ **9.** *Find which studies performed time-series analyses*
  
- **10.** Autosummarize results as automated meta-analysis
+ **10.** *Autosummarize results as automated meta-analysis*
  
- Steps #1-5 are predominantly a human workload, while #6-10 in theory can be done through classifiers as part of a supervised machine learning program. The training data could be an existing meta-analysis in an area (which may already have done the first five steps to a degree). This could then be used to train various classifiers to take in any *new* studies and see whether they meet the methodological criteria stressed above. 
+ Steps #1-5 are predominantly a *human* workload, while #6-10 in theory can be done through *classifiers* as part of a *supervised machine learning* program. The training data could be studies from an existing meta-analysis (which may already have done the first five steps to a degree). This could then be used to train various classifiers to take in any *new* studies and see whether they meet the methodological criteria stressed above. 
  
 #### Bear in mind that there is no such thing as a program that can do all ten steps by hand (let alone act as "factchecking" software). One analogy used by Hilary Mason (former data scientist at Bitly) is that machine learning programs can tell you whether A or B is correct, but not what those two should be in the first place. Software will forever be limited in answering second-order questions.
