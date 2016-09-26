@@ -62,9 +62,9 @@ So how exactly would a working version of this get put to use? Below are ten ste
  
  **7.** *Find which studies meet the* **measurement** *criteria*
  
- **8.** *Find which studies controlled for what confounders*
+ **8.** *Find which studies controlled for what* **confounders**
  
- **9.** *Find which studies performed time-series analyses*
+ **9.** *Find which studies performed* **time-series analyses**
  
  **10.** *Autosummarize results as automated meta-analysis*
  
