@@ -28,9 +28,9 @@ Right now, testing is under way with the use of an IPython notebook that convert
 
 The working assumption behind the early testing is rather blunt: *Good studies will have term frequencies that are distinct from bad ones.* Any studies featured in a meta-analysis that described what the study did or did not account for can easily be used to train a classifier. If academic studies on a topic that... 
 
-* Fail to account for sufficient confounders
 * Do not effectively establish a statistical association between hypothesized independent and responding variables
-* Do not accurately distinguish the order of causation between the two variables 
+* Fail to account for all statistically significant confounders - or control variables of any kind
+* Do not accurately distinguish the order of causation between the two variables (conflating cause and effect)
 
 ...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
 
@@ -42,50 +42,30 @@ Unstructured data analysis could be used to identify word patterns that indicate
 
 ___
 
-#### An Example for Laypersons
+## In Summary: clarifying relevant procedural steps
 
-Below is a crude way of checking for a statistical error using a simple script - run it here to see results: https://repl.it/C4nL
+ **1.** Decide on an area of causal research (does X cause y?)
 
-```python
-# A simple demo of how checking for the absence or presence of terms can indicate if
-# an error was made in an article, study, or blog post on college degree earnings.
+ **2.** Determine how X and y are measured in existing studies
 
-print
-print
-print 'This checks if the word *skewed* is in a string of text, which can be used to infer whether or not an article about college degree earnings took into account that a small handful of wealthy super-earners skew the average earnings of college degree recipients.'
+ **3.** If proxies of any kind are used, determine accuracy
 
-article_1 = ['A college degree is worth a million over time.']
-
-article_2 = ['The million dollar average is skewed by super-earners.']
-
-# the code below turns the words in each sentence into a list of strings
-
-word_list_1 = [word for line in article_1 for word in line.split()]
-
-word_list_2 = [word for line in article_2 for word in line.split()]
-
-print
-print
-print 'Did article_1 mention super-earners skewing average earnings?'
-print
-print '>>>', 'skewed' in word_list_1 # checks if 'skewed' is in the wordlist for article_1 [False]
-print
-print
-print 'Did article_2 mention super-earners skewing average earnings?'
-print
-print '>>>', 'skewed' in word_list_2 # checks if 'skewed' is in the wordlist for article_2 [True]
-print
-print
-print '-----------------------------------------------------------'
-print
-print
-print 'article_1 says \"A college degree is worth a million over your lifetime.\"'
-print
-print 'article_2 says \"The million dollar average is skewed by super-earners.\"'
-print
-print
-```
-
-All the above script does is convert raw text into a list of words, then check if a keyword is present in that list. What confounder will consist of however is more focused on machine learning. Early testing is utilizing a naive bayes classifier to avoid having to manually list keywords and check them one by one (which is a drawback of the simple code demonstrated above).
-
-Once a suitable program is developed, all someone would need is domain knowledge of the research area to effectively use it.
+ **4.** List all statistically significant control variables
+ 
+ **5.** Determine how causal order of variables may be sorted
+ 
+ --
+ 
+ **6.** Gather as much research articles related to #1 above
+ 
+ **7.** Find which studies met the **measurement** criteria
+ 
+ **8.** Find which studies controlled for what confounders
+ 
+ **9.** Find which studies performed time-series analyses
+ 
+ **10.** Autosummarize results as automated meta-analysis
+ 
+ Steps #1-5 are predominantly a human workload, while #6-10 in theory can be done through classifiers as part of a supervised machine learning program. The training data could be an existing meta-analysis in an area (which may already have done the first five steps to a degree). This could then be used to train various classifiers to take in any *new* studies and see whether they meet the methodological criteria stressed above. 
+ 
+#### Bear in mind that there is no such thing as a program that can do all ten steps by hand (let alone act as "factchecking" software). One analogy used by Hilary Mason (former data scientist at Bitly) is that machine learning programs can tell you whether A or B is correct, but not what those two should be in the first place. Software will forever be limited in answering second-order questions.
