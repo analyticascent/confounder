@@ -4,7 +4,7 @@
 
 &nbsp;
 
-*I am working on this under the tentative hope that it will serve as a capstone for a data science immersive course.*
+*I am working on this under the tentative hope that it will serve as a capstone for a data science immersive course. But more importantly, this is something I've hoped to make for several years now.*
 
 **Confounder** is a proof-of-concept in unstructured data analysis. The aim is to reduce the time it takes to analyze existing bodies of causal research on a topic; specifically in the context of determining what the findings of more reliable studies tend to be. *Causal* research refers to any study that attempts to find the association (or lack thereof) between one variable (**X**) and another (**y**). A study is considered to be more *reliable* if it more accurately measures *manipulated* in addition to *responding* variables, accounts for a greater number of significant *controlled* variables, and also makes a careful effort to find the *causal order* between both variables (ruling out that **y** is actually what causes **X**).
 
