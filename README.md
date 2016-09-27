@@ -1,14 +1,16 @@
 # Confounder - draft 1.0
 
-### *Automating methodological reviews of causal research*
+### *(Semi) Automating methodological reviews of causal research*
 
 &nbsp;
+
+*I am working on this under the tentative hope that it will serve as a capstone for a data science immersive course.*
 
 **Confounder** is a proof-of-concept in unstructured data analysis. The aim is to reduce the time it takes to analyze existing bodies of causal research on a topic; specifically in the context of determining what the findings of more reliable studies tend to be. *Causal* research refers to any study that attempts to find the association (or lack thereof) between one variable (**X**) and another (**y**). A study is considered to be more *reliable* if it more accurately measures *manipulated* in addition to *responding* variables, accounts for a greater number of significant *controlled* variables, and also makes a careful effort to find the *causal order* between both variables (ruling out that **y** is actually what causes **X**).
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
-The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this whitepaper. The project is particularly focused on semi-automating a *meta-analysis* of existing causal research on a topic (performed as a *methodological review* of existing evidence).
+The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this whitepaper. This project is particularly focused on semi-automating a *meta-analysis* of existing causal research on a topic that attempts to sort what studies accurately accounted for which of the three issues.
 
 Additionally, **aggregation** and **sampling errors** can also be taken into account, but it must be stressed that the magnitude of such flaws is more open to interpretation than the three methodological issues pictured above. Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
@@ -68,7 +70,7 @@ So how exactly would a working version of this get put to use? Below are ten ste
  
  **9.** *Find which studies performed* **time-series analyses**
  
- **10.** *Autosummarize results as automated meta-analysis*
+ **10.** *Autosummarize results as a generated meta-analysis*
  
  &nbsp;
  
