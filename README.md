@@ -12,7 +12,7 @@ The three methodological issues refered to above will be called **measurement,**
 
 Additionally, **aggregation** and **sampling errors** can also be taken into account, but it must be stressed that the magnitude of such flaws is more open to interpretation than the three methodological issues pictured above. Project inspiration stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
-[Confounders](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred:
+[**Confounders**](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred:
 
 ![Variables](https://significantlystatistical.files.wordpress.com/2014/12/slide-31.png "Variable Types")
 
@@ -46,6 +46,8 @@ ___
 
 So how exactly would a working version of this get put to use? Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
+&nbsp;
+
  **1.** *Decide on an area of causal research (does X cause y?)*
 
  **2.** *Determine how X and y are measured in existing studies*
@@ -68,6 +70,8 @@ So how exactly would a working version of this get put to use? Below are ten ste
  
  **10.** *Autosummarize results as automated meta-analysis*
  
+ &nbsp;
+ 
  Steps #1-5 are predominantly a *human* workload, while #6-10 in theory can be done through *classifiers* as part of a *supervised machine learning* program. The training data could be studies from an existing meta-analysis (which may already have done the first five steps to a degree). This could then be used to train various classifiers to take in any *new* studies and see whether they meet the methodological criteria stressed above. 
  
-#### Bear in mind that there is no such thing as a program that can do all ten steps by hand (let alone act as "factchecking" software). One analogy used by Hilary Mason (former data scientist at Bitly) is that machine learning programs can tell you whether A or B is correct, but not what those two should be in the first place. Software will forever be limited in answering second-order questions.
+#### Bear in mind that there is no such thing as a program that can do all ten steps by hand (let alone act as "factchecking" software). One analogy used by [Hilary Mason (former chief data scientist at Bitly)](http://www.pcmaconvene.org/features/the-mindset-you-need-to-develop-according-to-data-expert-hilary-mason/) is that machine learning programs can tell you whether A or B is correct, but not what those two should be in the first place (using an A/B test as an example). Software will forever be limited in answering second-order questions.
