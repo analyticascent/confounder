@@ -26,7 +26,7 @@ Recent inspiration for this project stems largely from an article on scientific 
 
 &nbsp;
 
-#### Concept and Process
+#### The Concept in Theory
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
@@ -45,6 +45,10 @@ The operating assumption boils down to this: *Good studies will have term freque
 * Do not accurately distinguish the order of causation between the two variables (conflating cause and effect)
 
 ...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
+
+&nbsp;
+
+#### The Process in Practice
 
 The phases of execution would play out as follows:
 
