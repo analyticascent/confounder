@@ -16,9 +16,17 @@ Additionally, **aggregation** and **sampling issues** can also be taken into acc
 
 Recent inspiration for this project stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
+&nbsp;
+
+#### Where the Name Came From
+
 [**Confounders**](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred:
 
 ![Variables](https://significantlystatistical.files.wordpress.com/2014/12/slide-31.png "Variable Types")
+
+&nbsp;
+
+#### Concept and Process
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
@@ -38,9 +46,21 @@ The operating assumption boils down to this: *Good studies will have term freque
 
 ...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
 
+The phases of execution would play out as follows:
+
+* All implementations will start with the criteria mentioned previously (measurement, confounding, causal order)
+* For an particular research area, a specific criteria will be established that stems from those three things
+* A representative sample set will then be needed of studies that meet or fail those criteria in various ways
+* Using that sample set, a variant of Confounder will be trained to recognize which studies fail what criteria
+* Finally, the previous three steps will be reiterated to keep boosting accuracy with more and varied samples
+
+Any outcome of the scripts can be challenged by critiquing the threshold for accurate measurement (e.g. the accuracy or lake thereof for various proxies turns out to be different), what control variables should be used (some were left out, or ones used don't have the impact that was originally claimed), as well how time series analysis should be carried out (better data becomes available, among other things).
+
+&nbsp;
+
 #### Applications for Economic, Scientific, or Sociological Research
 
-Unstructured data analysis could be used to identify word patterns that indicate whether a confounding factor in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
+Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
 
 ![Scientific Errors](http://www.compoundchem.com/wp-content/uploads/2014/04/A-Rough-Guide-to-Spotting-Bad-Science-2015.png "A Rough Guide to Spotting Bad Science")
 
