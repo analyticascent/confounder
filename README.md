@@ -74,7 +74,7 @@ Unstructured data analysis could be used to identify word patterns that indicate
 
 ![Scientific Errors](http://www.compoundchem.com/wp-content/uploads/2014/04/A-Rough-Guide-to-Spotting-Bad-Science-2015.png "A Rough Guide to Spotting Bad Science")
 
-___
+&nbsp;
 
 ## In Summary: clarifying relevant procedural steps
 
