@@ -34,13 +34,13 @@ Accurate studies require that as many statistically significant confounders are 
 
 &nbsp;
 
-## The Concept in Theory
+## Confounder in Theory and Practice
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
-* List all potential confounders that should have been controlled for in a study or article making a causal claim
-* Determine what keywords or raw text patterns are associated with accounting for those confounders (or failing to)
-* Write scripts which will check for the absense or presence of those phrases and/or text patterns in passages
+* **Feature Engineering:** List confounders that should have been accounted for in passages
+* **Training Corpus:** Create a CSV file with text of articles labeled by errors/omissions made
+* **Coding & Execution:** Read the CSV file into an Ipython notebook coded to classify the text
 
 Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn. Studies featured in a meta-analysis on a given topic will be used as a train/test set.
 
@@ -53,20 +53,6 @@ The operating assumption boils down to this: *Good studies will have term freque
 * Do not accurately distinguish the order of causation between the two variables (conflating cause and effect)
 
 ...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
-
-&nbsp;
-
-## The Process in Practice
-
-The phases of execution would play out as follows:
-
-* All implementations will start with the criteria mentioned previously (measurement, confounding, causal order)
-* For an particular research area, a specific criteria will be established that stems from those three things
-* A representative sample set will then be needed of studies that meet or fail those criteria in various ways
-* Using that sample set, a variant of Confounder will be trained to recognize which studies fail what criteria
-* Finally, the previous three steps will be reiterated to keep boosting accuracy with more and varied samples
-
-Any outcome of the scripts can be challenged by critiquing the threshold for accurate measurement (e.g. the accuracy or lake thereof for various proxies turns out to be different), what control variables should be used (some were left out, or ones used don't have the impact that was originally claimed), as well how time series analysis should be carried out (better data becomes available, among other things).
 
 &nbsp;
 
