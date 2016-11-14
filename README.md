@@ -1,4 +1,4 @@
-# Confounder - draft 1.0
+# Confounder - Readme
 
 ### (Semi) Automating methodological reviews of causal research
 
