@@ -14,11 +14,11 @@ Analysis on a topic is more *reliable* if it **accurately measures** *manipulate
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
-The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this whitepaper. This project is particularly focused on semi-automating a *meta-analysis* of existing causal research on a topic that attempts to sort what studies accurately accounted for which of the three issues.
+The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this readme. For the most part, checking for missing variables in news articles or blog posts will be the easiest implementation of this tool. As for advanced use, this project is particularly focused on semi-automating a *meta-analysis* of existing causal research on a topic - one that attempts to sort what studies accurately accounted for which of the three issues.
 
-Additionally, **aggregation** and **sampling issues** can also be taken into account but it must be stressed that the magnitude of such flaws are more open to interpretation than the three methodological issues pictured above. Whether a study falls prey to the [Yule-Simpson effect](http://www.wsj.com/articles/SB125970744553071829) or some form of [ecological fallacy](http://www.socialresearchmethods.net/kb/fallacy.php) is likely too much of a second-order problem that can't easily be deduced from word patterns alone. Sampling quantities are often explicitly stated (often in the absract), but deducing sampling bias may also be too hard to infer using natural language processing alone.
+**Aggregation** and **sampling issues** (quantity and systematic error) could in theory also be checked for, but it must be stressed that the magnitude of such flaws are more open to interpretation than the three methodological issues pictured above. Whether a study falls prey to the [Yule-Simpson effect](http://www.wsj.com/articles/SB125970744553071829) or some form of [ecological fallacy](http://www.socialresearchmethods.net/kb/fallacy.php) is likely too much of a second-order problem that can't easily be deduced from word patterns alone. Sampling quantities are often explicitly stated (often in the absract), but deducing sampling bias may also be too hard to infer using natural language processing alone.
 
-Recent inspiration for this project stems largely from an article on scientific and statistical methodology: [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
+*Readers are highly encouraged to check out this article on scientific and statistical methodology:* [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
 &nbsp;
 
