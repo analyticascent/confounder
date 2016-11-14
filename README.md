@@ -1,10 +1,12 @@
 # Confounder - draft 1.0
 
-### *(Semi) Automating methodological reviews of causal research*
+### (Semi) Automating methodological reviews of causal research
 
 &nbsp;
 
-*I am working on this under the tentative hope that it will serve as a capstone for a data science immersive course. But more importantly, this is something I've hoped to make for several years - long before I knew what data science even was.*
+*I am working on this under the tentative hope that it will serve as a capstone for a data science immersive course. But more importantly, this is something I've hoped to make for several years - long before I knew what data science even was. For now I will be using a simple classification model (multinomial naive bayes). As part of an immersive course I hope to use neural networks and ensemble techniques to enhance accuracy.*
+
+---
 
 Confounder is a proof-of-concept in unstructured data analysis. This tool will pre-screen text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**). It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. In this case, the goal is not to sort spam from valid emails, but rather to pre-screen news articles, blog posts, or studies for reliability on a causual topics ("X leads to Y").
 
