@@ -18,7 +18,7 @@ Recent inspiration for this project stems largely from an article on scientific 
 
 &nbsp;
 
-#### Where the Name Came From
+## Where the Name Came From
 
 [**Confounders**](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred:
 
@@ -26,7 +26,7 @@ Recent inspiration for this project stems largely from an article on scientific 
 
 &nbsp;
 
-#### The Concept in Theory
+## The Concept in Theory
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
@@ -48,7 +48,7 @@ The operating assumption boils down to this: *Good studies will have term freque
 
 &nbsp;
 
-#### The Process in Practice
+## The Process in Practice
 
 The phases of execution would play out as follows:
 
@@ -62,7 +62,7 @@ Any outcome of the scripts can be challenged by critiquing the threshold for acc
 
 &nbsp;
 
-#### Applications for Economic, Scientific, or Sociological Research
+## Applications for Economic, Scientific, or Sociological Research
 
 Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
 
