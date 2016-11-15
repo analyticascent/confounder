@@ -8,9 +8,9 @@
 
 ---
 
-## What is Confounder?
+## 1. What is Confounder?
 
-Confounder is a proof-of-concept in unstructured data analysis. This tool will pre-screen text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**). It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. In this case, the goal is not to sort spam from valid emails, but rather to pre-screen news articles, blog posts, or studies for reliability on a causual topics ("X leads to Y").
+Confounder is a proof-of-concept in unstructured data analysis. This tool will pre-screen text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**). It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. In the case of Confounder however, the goal is not to sort spam from valid emails but rather to pre-screen news articles, blog posts, or academic studies for reliability on a causual topics ("X leads to Y").
 
 **Please note that this is not "fact-checking" software and no such thing can exist (see final paragraph); it merely screens content to determine if it is even worth your time.**
 
@@ -26,7 +26,7 @@ The three methodological issues refered to above will be called **measurement,**
 
 &nbsp;
 
-## Where the Name Came From
+## 2. Where the Name Came From
 
 [**Confounders**](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. As a simple example, consider a claim that [ice cream consumption leads to higher crime rates](http://icbseverywhere.com/blog/2014/10/the-logic-of-causal-conclusions/). The confounder (missing variable) in this case is the season (summer). People spend more time outdoors (and thus availability for crime rises) during the summer *and* they tend to consume more cold goods - for rather obvious reasons.
 
@@ -36,7 +36,7 @@ Accurate studies require that as many statistically significant confounders are 
 
 &nbsp;
 
-## Confounder in Theory and Practice
+## 3. Confounder in Theory and Practice
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
@@ -58,7 +58,7 @@ The operating assumption boils down to this: *Good studies will have term freque
 
 &nbsp;
 
-## Applications for Economic, Scientific, or Sociological Research
+## 4. Applications for Economic, Scientific, or Sociological Research
 
 Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
 
@@ -66,7 +66,7 @@ Unstructured data analysis could be used to identify word patterns that indicate
 
 &nbsp;
 
-## In Summary: clarifying relevant procedural steps
+## 5. In Summary: clarifying relevant procedural steps
 
 So how exactly would a working version of this get put to use? Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
