@@ -10,7 +10,7 @@
 
 ## 1. What is Confounder?
 
-Confounder is a proof-of-concept in unstructured data analysis. This tool will pre-screen text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**). It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. In the case of Confounder however, the goal is not to sort spam from valid emails but rather to pre-screen news articles, blog posts, or academic studies for reliability on a causual topics ("X leads to Y").
+Confounder is a proof-of-concept in unstructured data analysis. It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. This tool will pre-screen text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**).
 
 **Please note that this is not "fact-checking" software and no such thing can exist (see final paragraph); it merely screens content to determine if it is even worth your time.**
 
