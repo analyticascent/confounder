@@ -8,6 +8,8 @@
 
 ---
 
+&nbsp;
+
 ## 1. What is Confounder?
 
 Confounder is a proof-of-concept in unstructured data analysis. It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. This tool pre-screens text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**).
@@ -60,15 +62,24 @@ The operating assumption boils down to this: *Good studies will have term freque
 
 &nbsp;
 
-## 4. Applications for Economic, Scientific, or Sociological Research
+## 4. Applications, and How (non-technical) Users Can Help
 
-Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases as features for machine learning.
+Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases or word transitions as features for machine learning.
+
+The remaining questions however are just what research issues this could be used for, and how other people might be able to assist in the applied use of Confounder. Even people with an entirely non-technical background can help choose issues to test with, as well as add to any existing list of missing variables already in use.
+
+For demo purposes, three major test cases will be examined for new user demonstration. They are selected because they are quantifiable cause and effect topics that a large amount of test articles can be used to build a training corpus.
 
 
+* **Yule-Simpson Effect:** Male/female average wage and job satisfaction figures might be falling prey to this
+
+* **Supply & Demand:** Checking minimum wage research for omissions can better test theories about demand curves
+
+* **Research Review:** An existing meta-analysis could serve as a training set to automate more research review
 
 &nbsp;
 
-## 5. In Summary: clarifying relevant procedural steps
+## 5. In Summary: Relevant Steps and Future Plan
 
 So how exactly would a working version of this get put to use? Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
