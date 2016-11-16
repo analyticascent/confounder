@@ -79,11 +79,11 @@ For demo purposes, three major test cases will be examined for new user demonstr
 
 A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. For instance, consider the list of twelve tradeoffs/missing variables related to male/female wage comparisons:
 
-&nbsp;
-
 **Question:** *Does employer discrimination explain the difference in the *average* salary differences between women and men, typically placed at 75-80 cents for women per dollar a man makes?*
 
 **Confounders:** Below are various tradeoffs that influence the difference in average male/female salaries that are frequently ignored in aggregated statistics. 
+
+&nbsp;
 
 1. **Job Titles:** For obvious reasons, differences in occupation will affect pay.
 
