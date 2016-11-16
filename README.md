@@ -73,7 +73,7 @@ For demo purposes, three major test cases will be examined for new user demonstr
 
 * **Yule-Simpson Effect:** Male/female average wage and job satisfaction figures might be falling prey to this
 
-* **Supply & Demand:** Checking minimum wage research for omissions can better test theories about demand curves
+* **Supply & Demand:** Checking minimum wage studies for omissions can better test theories about demand curves
 
 * **Research Review:** An existing meta-analysis could serve as a training set to automate more research review
 
