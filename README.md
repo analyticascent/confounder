@@ -24,7 +24,7 @@ The three methodological issues refered to above will be called **measurement,**
 
 **Aggregation** and **sampling issues** (quantity and systematic error) could in theory also be checked for, but it must be stressed that the magnitude of such flaws are more open to interpretation than the three methodological issues pictured above. Whether a study falls prey to the [Yule-Simpson effect](http://www.wsj.com/articles/SB125970744553071829) or some form of [ecological fallacy](http://www.socialresearchmethods.net/kb/fallacy.php) is likely too much of a second-order problem that can't easily be deduced from word patterns alone. Sampling quantities are often explicitly stated (often in the absract), but deducing sampling bias may also be too hard to infer using natural language processing alone.
 
-*Readers are highly encouraged to check out this article on scientific and statistical methodology:* [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
+*Readers should definitely check out this article on research methodology, especially the interactive:* [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
 
 &nbsp;
 
