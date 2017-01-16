@@ -15,7 +15,7 @@
 
 &nbsp;
 
-3) **Who is Employed:** The workers who are most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
+3) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
 
 &nbsp;
 
