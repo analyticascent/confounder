@@ -3,7 +3,7 @@
 
 **Question:** *Are there downsides to increasing the legally required minimum wage that outweigh apparent benefits?*
 
-**Omissions:** Below are a mix of tradeoffs and statistical issues in observing the effects of a mandated wage increase that differs from strictly market-clearing raises.
+**Omissions:** Below are a mix of tradeoffs and omitted variables, in observing the effects of any mandated wage increase that differs from strictly *market-clearing* raises.
 
 ---
 
