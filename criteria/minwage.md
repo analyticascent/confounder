@@ -1,7 +1,7 @@
 ### -Minimum Wage Confounding Variables & Tradeoffs [a list in progress]
 ---
 
-**Question:** *Are there downsides to increasing the legally required minimum wage that outweigh apparent benefits?*
+**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?*
 
 **Omissions:** Below are a mix of tradeoffs and omitted variables, in observing the effects of any mandated wage increase that differs from strictly *market-clearing* raises.
 
@@ -11,11 +11,11 @@
 
 &nbsp;
 
-2) **Total Hours Worked:** A minimum wage increase has no benefit for the workers it's intended to help if they lose a corresponding number of hours through shifts that are reduced in length or availability.
+2) **Total Hours Worked:** A minimum wage increase has no benefit for the workers it's intended to help if they lose a corresponding number of hours from shorter and/or fewer shifts.
 
 &nbsp;
 
-3) **Who is Employed:** The workers who are most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* An aggregate employment rate by itself fails to distinguish a negative impact in employment for this group.
+3) **Who is Employed:** The workers who are most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
 
 &nbsp;
 
