@@ -1,15 +1,15 @@
 ### -Minimum Wage Confounding, Tradeoffs, & Statistical Errors
 ---
 
-**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of tradeoffs and omitted variables, in observing the effects of any mandated wage increase that differs from purely *market-clearing* raises.
+**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of omitted variables, tradeoffs, and statistical errors in observing the effects of any mandated wage increase that differs from purely *market-clearing* raises.
 
----
+-
 
-1) **Business Cycle:** Increases in the minimum wage are often done after a recession. This conceals negative costs because the economy is already destined to improve as time goes on. Cities with an already booming economy can hide costs as well (e.g. Seattle's $15/hr phase in).
+1) **Business Cycle:** Increases in the minimum wage are often done after a recession. This conceals negative costs because the economy is already destined to improve as time goes on. Cities with an already booming economy can hide costs as well (such as Seattle's $15/hr phase in).
 
 &nbsp;
 
-2) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history* (often teens). *Total employment rates* by themselves fail to distinguish negative impacts on employment for this group.
+2) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little or no work history* (often teens). *Total employment rates* by themselves fail to account for negative impacts on employment for this group.
 
 &nbsp;
 
@@ -29,7 +29,7 @@
 
 &nbsp;
 
-7) **Mobility Reduction:** The ease of rising into a higher-paying occupation may decrease due to a higher minimum wage. Why this is the case is multi-faceted: 
+7) **Mobility Reduction:** The likelihood of rising into a higher-paying occupation may decrease. The reasons differ between entry-level and other workers: 
 
 * If the pay for jobs beyond entry-level are reduced to make up for minimum wage increases (what economists call "wage compression"), then minimum wage workers may soon find themselves competing with higher skilled workers. The skilled workers may find that an easier job that now pays more due to a wage increase is a worthy tradeoff.
 * If the pay for higher skilled jobs goes down to make up for mandated wage increases, then moving up from entry-level jobs to more challenging occupations may no longer be seen as a worthy tradeoff for entry-level workers. Combining this with the other facet of wage compression mentioned above could mean a lower-paying economy overall.
