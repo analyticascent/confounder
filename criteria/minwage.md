@@ -17,11 +17,11 @@
 
 &nbsp;
 
-4) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
+4) **Non-Salary Benefits:** Anything from tips, bonuses, shift flexibility, or other various workplace benefits not necessarily tied to hourly salary can decrease and offset any mandated wage increases. 
 
 &nbsp;
 
-5) **Non-Salary Benefits:** Anything from tips, bonuses, shift flexibility, or other various workplace benefits not necessarily tied to hourly salary can decrease and offset any mandated wage increases. 
+5) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
 
 &nbsp;
 
