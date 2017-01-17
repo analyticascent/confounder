@@ -21,10 +21,6 @@
 
 &nbsp;
 
-
-
-&nbsp;
-
 5) **Price Increases/Supply Reductions:** The cost of goods and services in an area with a mandated wage increase can (and often does) go up to pay for the new labor costs, and/or the amount of those same things you can get for the same price may drop (e.g. portion sizes at restaurants).
 
 &nbsp;
@@ -41,7 +37,7 @@
 
 &nbsp;
 
-8) **Inflation/Deflation Factor:** An increase in the minimum wage may have no measurably negative impact, yet have no positive effect if the purchasing power of the dollar has decreased. This can be especially relevant if the wage increase is passed after a recession, and Federal Reserve interest rates are artificially low.
+8) **Inflation Factor:** Minimum wage increases may have no measurably negative impact, yet have no *positive* effect if dollar purchasing power has decreased. This can be especially relevant if the wage increase is passed after a recession, and Federal Reserve interest rates are artificially low.
 
 &nbsp;
 
