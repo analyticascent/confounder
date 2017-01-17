@@ -9,15 +9,19 @@
 
 &nbsp;
 
-2) **Total Hours Worked:** A minimum wage increase has no benefit for the workers it's intended to help if they lose a corresponding number of hours from shorter and/or fewer shifts.
+2) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
 
 &nbsp;
 
-3) **Non-Salary Benefits:** Anything from tips, bonuses, shift flexibility, or other various workplace benefits not necessarily tied to hourly salary can decrease and offset any mandated wage increases. 
+3) **Total Hours Worked:** A minimum wage increase has no benefit for the workers it's intended to help if they lose a corresponding number of hours from shorter and/or fewer shifts. This can also happen when companies are *voluntarily* raising the wages of workers.
 
 &nbsp;
 
-4) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
+4) **Non-Salary Benefits:** Anything from tips, bonuses, shift flexibility, or other various workplace benefits not necessarily tied to hourly salary can decrease and offset any mandated wage increases. It must be stressed that this is often the most challenging factor on this list to take into account because the kinds of non-salary benefits that exist vary from job to job.
+
+&nbsp;
+
+
 
 &nbsp;
 
