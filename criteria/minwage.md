@@ -1,7 +1,7 @@
 ### -Minimum Wage Confounding, Tradeoffs, & Statistical Errors
 ---
 
-**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of omitted variables, tradeoffs, and statistical errors in observing the effects of any mandated wage increase that differs from purely *market-clearing* raises.
+**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of omitted variables, tradeoffs, and statistical errors in observing the effects of any mandated wage increases that differ from purely *market-clearing* raises.
 
 -
 
@@ -37,7 +37,7 @@
 
 &nbsp;
 
-8) **Inflation Factor:** Minimum wage increases may have no measurably negative impact, yet have no *positive* effect if dollar purchasing power has decreased. This can be especially relevant if the wage increase is passed after a recession, and Federal Reserve interest rates are artificially low.
+8) **Inflation Factor:** Minimum wage increases may have no measurably negative impact, yet have *no positive effect* if dollar purchasing power has decreased. This can be especially relevant if the wage increase is passed after a recession, and Federal Reserve interest rates are artificially low.
 
 &nbsp;
 
@@ -53,4 +53,4 @@
 
 &nbsp;
 
-12) **Arbitrary Focus:** Many studies faily to take into account all the factors listed above in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could be significant.
+12) **Arbitrary Focus:** Many studies fail to take into account all the factors listed above in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could be significant.
