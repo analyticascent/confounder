@@ -1,7 +1,7 @@
-### -Minimum Wage Confounding Variables & Tradeoffs [a list in progress]
+### -Minimum Wage Confounding, Tradeoffs, & Statistical Errors
 ---
 
-**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of tradeoffs and omitted variables, in observing the effects of any mandated wage increase that differs from strictly *market-clearing* raises.
+**Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of tradeoffs and omitted variables, in observing the effects of any mandated wage increase that differs from purely *market-clearing* raises.
 
 ---
 
@@ -9,11 +9,11 @@
 
 &nbsp;
 
-2) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history.* Total employment rates by themselves fail to distinguish negative impacts in employment for this group.
+2) **Who is Employed:** The workers most negatively impacted by the minimum wage are *uncredentialed workers with little to no work history* (often teens). *Total employment rates* by themselves fail to distinguish negative impacts on employment for this group.
 
 &nbsp;
 
-3) **Total Hours Worked:** A minimum wage increase has no benefit for the workers it's intended to help if they lose a corresponding number of hours from shorter and/or fewer shifts. This can also happen when companies are *voluntarily* raising the wages of workers.
+3) **Total Hours Worked:** A minimum wage increase has no benefit for current workers it's intended to help if they lose a corresponding number of hours due to shorter and/or fewer shifts. This can even happen when companies are *voluntarily* raising the wages of workers.
 
 &nbsp;
 
@@ -21,7 +21,7 @@
 
 &nbsp;
 
-5) **Price Increases/Supply Reductions:** The cost of goods and services in an area with a mandated wage increase can (and often does) go up to pay for the new labor costs, and/or the amount of those same things you can get for the same price may drop (e.g. portion sizes at restaurants).
+5) **Price Increases/Supply Reductions:** The cost of goods and services in an area with a mandated wage increase can (and often does) go up to pay for the new labor costs, and/or the quality or amount of those same things you can get for the same price may drop (e.g. portion sizes at restaurants). Many argue price increases do not affect sales - if those higher prices did *not* affect sales, business would already have them to begin with.
 
 &nbsp;
 
@@ -53,4 +53,4 @@
 
 &nbsp;
 
-12) **Arbitrary Focus:** Many studies faily to take into account all the factors listed below in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could be significant.
+12) **Arbitrary Focus:** Many studies faily to take into account all the factors listed above in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could be significant.
