@@ -45,11 +45,11 @@
 
 &nbsp;
 
-10) **New Costs in Getting Work:** It may take far more time to find a job, and added requirements may be needed to get hired. Examples include a need for new credentials, volunteer service, or internship, etc. This is especially an issue for people who had no job to start with.
+10) **Cost of Getting Work:** It may take far more time to find a job, and added requirements may be needed to get hired. Examples include a need for new credentials, volunteer service, or internship, etc. This is especially an issue for people who had no job to start with.
 
 &nbsp;
 
-11) **Aggregates/Base Rate Fallacy:** Some studies look at Federal increases in the minimum wage without seeing how much (if at all) they differ from more local legal municipalities. It's meaningless to talk about an increase from $8-$10/hr for instance if a more local area (such as a state or city) already had the latter amount as a legal wage floor. Many studies also will claim that massive *percentage* increases have been shown to have no negative impact without disclosing what the base rates (absolute dollar amounts) were.
+11) **Aggregates & Base Rates:** Some studies look at Federal increases in the minimum wage without seeing how much (if at all) they differ from more local legal municipalities. It's meaningless to talk about an increase from $8-$10/hr for instance if a more local area (such as a state or city) already had the latter amount as a legal wage floor. Many studies also will claim that massive *percentage* increases have been shown to have no negative impact without disclosing what the base rates (absolute dollar amounts) were.
 
 &nbsp;
 
