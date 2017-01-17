@@ -53,4 +53,4 @@
 
 &nbsp;
 
-12) **Arbitrary Focus:** Many studies fail to take into account all the factors listed above in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could be significant.
+12) **Arbitrary Focus:** Many studies fail to take into account all these factors listed in terms of their *combined* effect overall, as well as after enough time has passed for any given wage increase (especially those phased in over time) to impact labor markets. For example, someone might pick *one thing* from this list and insist it's absurd that it alone could even be significant.
