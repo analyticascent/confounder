@@ -5,7 +5,7 @@
 
 ---
 
-1) **Business Cycle:** Increases in the minimum wage are often done after a recession. This conceals negative costs because the economy is already destined to improve as time goes on. Cities with an already booming economy can greatly conceal negative costs as well (Seattle during it's $15/hr phase in is a good example).
+1) **Business Cycle:** Increases in the minimum wage are often done after a recession. This conceals negative costs because the economy is already destined to improve as time goes on. Cities with an already booming economy can hide costs as well (e.g. Seattle's $15/hr phase in).
 
 &nbsp;
 
