@@ -53,4 +53,4 @@
 
 &nbsp;
 
-12) **Aggregates/Base Rate Fallacy:** Some studies will look at Federal or State increases in the minimum wage without seeing how much (if at all) they differ from more local legal municipalities. It's meaningless to talk about an increase from $8-$10/hr if a more local area already had the latter amount as a legal wage floor. Many studies also will claim that massive *percentage* increases have been shown to have no negative impact without disclosing what the base rates (absolute dollar amounts) were.
+12) **Aggregates/Base Rate Fallacy:** Some studies look at Federal increases in the minimum wage without seeing how much (if at all) they differ from more local legal municipalities. It's meaningless to talk about an increase from $8-$10/hr for instance if a more local area (such as a state or city) already had the latter amount as a legal wage floor. Many studies also will claim that massive *percentage* increases have been shown to have no negative impact without disclosing what the base rates (absolute dollar amounts) were.
