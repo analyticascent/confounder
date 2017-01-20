@@ -1,7 +1,7 @@
-### -Male/Female Wage Gap
+### -Male/Female Wage Gap Confounding, Trade-offs, & Statistical Errors
 ---
 
-**Question:** *Does employer discrimination explain the difference in the *average* salary differences between women and men, typically placed at 75-80 cents for women per dollar a man makes?* Below are various confounders, tradeoffs, and statistical issues that influence the difference in average male/female salaries that are frequently overlooked in aggregated statistics. 
+**Question:** *Does employer discrimination explain the difference in the *average* salary differences between women and men, typically placed at 75-80 cents for women per dollar a man makes?* Below are a mix of omitted variables, tradeoffs, and statistical errors that influence the difference in average male/female salaries and are frequently overlooked in aggregated statistics. 
 
 -
 
