@@ -3,7 +3,7 @@
 
 **Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of omitted variables, tradeoffs, and statistical errors in observing the effects of any mandated wage increases that differ from purely *market-clearing* raises.
 
--
+
 
 1) **Business Cycle:** Increases in the minimum wage are often done after a recession. This conceals negative costs because the economy is already destined to improve as time goes on. Cities with an already booming economy can hide costs as well (such as Seattle's $15/hr phase in).
 
