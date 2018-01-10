@@ -1,4 +1,4 @@
-### -Minimum Wage Confounding, Trade-offs, & Statistical Errors
+### Minimum Wage Confounders, Trade-offs, & Statistical Errors
 ---
 
 **Question:** *Are there downsides to raising the legal minimum wage that outweigh apparent benefits?* Below are a mix of omitted variables, tradeoffs, and statistical errors in observing the effects of any mandated wage increases that differ from purely *market-clearing* raises.
