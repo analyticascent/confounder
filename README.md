@@ -1,6 +1,6 @@
 # Confounder - readme
 
-### (Semi) Automating methodological reviews of causal research
+#### Inferring Errors of Omission and the Content of Causal Studies Through Machine Learning
 
 &nbsp;
 
