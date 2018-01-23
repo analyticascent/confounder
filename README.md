@@ -79,35 +79,25 @@ For demo purposes, three major test cases will be examined for new user demonstr
 
 A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. For instance, consider the list of twelve tradeoffs/missing variables related to male/female wage comparisons:
 
-**Question:** *Does employer discrimination explain the difference in the *average* salary differences between women and men, typically placed at 75-80 cents for women per dollar a man makes?*
+**Question:** *What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
 
-**Confounders:** Below are various tradeoffs that influence the difference in average male/female salaries that are frequently ignored in aggregated statistics. 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=V122ICNS8_0
+" target="_blank"><img src="http://img.youtube.com/vi/V122ICNS8_0/0.jpg" 
+alt="ABC 20/20 - College is a Ripoff" width="480" height="360" border="10" /></a>
+
+**The Criteria:** 
 
 &nbsp;
 
-1. **Job Titles:** For obvious reasons, differences in occupation will affect pay.
+1. **Sunk Costs:** Not working as much during the 4-years of schooling subtracts from future earnings.
 
-2. **Job Conditions:** Even under the same *job title,* different conditions may exist for how men and women engage in the job at hand. A male firefighter or police officer for example may end up taking far more risks than women while on the job for instance.
+2. **Tuition Costs:** Both the direct cost of tuition as well as interest on student loans subtracts from future salaries.
 
-3. **Hours/Weeks of Work:** Men tend to work more hours per week and more weeks per year. The implications for salary differences are self-explanatory.
+3. **Outlier Grads:** Super-earner outliers skew the average for degree recipients (such as Michael Jordan w/Geography degree).
 
-4. **Odd Hours of Work:** Men tend to have unusual start/end times for a given job, such as night shifts, or working overtime. Overtime differences are especially pronounced.
+4. **Aggregation:** Aggregating all majors and all non-degree holders into two groups overlooks differences majors can play.
 
-5. **Updating Work Credentials:** Any job or industry that has training or certifications can lead to a pay difference if men tend to more aggresively pursue updated qualifications. Comptia certifications in the IT industry are an example.
-
-6. **Absenteeism/Career Gaps:** Women are more likely to take time out of any given career if they have a child for instance.
-
-7. **Willingness to Commute:** Men tend to commute longer distances in pursuit of higher paying jobs.
-
-8. **Willingness to Relocate:** Men are more likely to move to a new city altogether in pursuit of higher pay. This can also include travel requirements, and moving to cities with a high cost of living (such San Francisco for tech workers).
-
-9. **Work by Commision:** Men are more likely to work by commision, meaning they get paid for what they do in any given hour rather than just the number of hours per work. This pay format tends to be far more competitive than raw salary alone.
-
-10. **Non-Salary Benefits:** Women tend to prefer non-salary benefits, such as medical, retirement savings, or workplace flexibility.
-
-11. **Negotiating for Pay:** As much as seven percent of the male/female wage difference can be attributed to differences in negotiating for higher salaries.
-
-12. **Statistical Issues:** There are also statistical issues to account for. Higher male unemployment is often not included in male/female wage comparisons. Whether you measure weekly or annual pay can influence the result as well.
+5. **Causation Order:** Did college make the student or vice versa? Those that complete college may be prone to succeed beforehand.
 
 &nbsp;
 
