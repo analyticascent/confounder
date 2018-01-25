@@ -77,7 +77,7 @@ For demo purposes, three major test cases will be examined for new user demonstr
 
 * **Research Review:** An existing meta-analysis could serve as a training set to automate more research review
 
-A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. For instance, consider the list of twelve tradeoffs/missing variables related to male/female wage comparisons:
+A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. For instance, consider the list of five factors related to the impact of college education on earning. They consist of trade-offs, omitted variables, along with the question of cause of cause and effect:
 
 **Question:** *What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
 
