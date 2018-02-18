@@ -3,6 +3,7 @@
 
 **Question:** *Does employer discrimination explain the difference in the *average* salary differences between women and men, typically placed at 75-80 cents for women per dollar a man makes?* Below are a mix of omitted variables, tradeoffs, and statistical errors that influence the difference in average male/female salaries and are frequently overlooked in aggregated statistics. 
 
+&nbsp;
 
 1) **Job Titles:** For obvious reasons, differences in occupation will affect pay.
 
