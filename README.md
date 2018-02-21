@@ -24,21 +24,23 @@ The three methodological issues refered to above will be called **measurement,**
 
 **Aggregation** and **sampling issues** (quantity and systematic error) could in theory also be checked for, but it must be stressed that the magnitude of such flaws are more open to interpretation than the three methodological issues pictured above. Whether a study falls prey to the [Yule-Simpson effect](http://www.wsj.com/articles/SB125970744553071829) or some form of [ecological fallacy](http://www.socialresearchmethods.net/kb/fallacy.php) is likely too much of a second-order problem that can't easily be deduced from word patterns alone. Sampling quantities are often explicitly stated (often in the absract), but deducing sampling bias may also be too hard to infer using natural language processing alone.
 
-&nbsp;
+---
 
 ### What Good Studies Do:
 
-**1. Define Their Variables:** All studies (or even news articles) that assert that one thing causes or affects something else must clearly define what the X and Y variables are that they are comparing.
+**1. Define Their Variables:** All studies (and often news articles) that assert that one thing influences something else must clearly define what the X (manipulated/independent) and Y (responding/dependent) variables are that are being compared.
 
-**2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones and techniques such as random control trials are often necessary for many kinds of research.
+**2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones and techniques such as random control trials are often helpful for many kinds of research. Heterogeneity within sample groups is also an issue.
 
-**3. Account for Confounders:** Any additional variables that may influence how X appears to cause Y need to be accounted for. This is a common failure among many studies, so 
+**3. Account for Confounders:** Any additional variables that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
 
-**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - requiring all cars to be as durable as tanks may reduce driver deaths, but it probably will come at the expense of things such as cost and fuel efficiency.
+**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - requiring cars to have tank-like durability (X) may reduce driver deaths (Y), but it probably will come at the expense of things such as cost and fuel efficiency.
 
 **5. Use Time Series Analysis:** Does X influence Y, or could it be the other way around? Time series analysis (seeing whether changes in one variable come before another) can help answer this question.
 
-*Readers should definitely check out this article on research methodology, especially the interactive:* [**Science Isn't Broken**](http://fivethirtyeight.com/features/science-isnt-broken/)
+&nbsp;
+
+*Readers should definitely check out this article on research methodology, especially the interactive:* <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
 
 &nbsp;
 
