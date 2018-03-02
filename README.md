@@ -40,7 +40,11 @@ The three methodological issues refered to above will be called **measurement,**
 
 &nbsp;
 
-*Readers should definitely check out this article on research methodology, especially the interactive:* <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
+![Statistical Claims Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Statistical%20Claims%20Criteria%20-%20Print.png)
+
+&nbsp;
+
+*Readers should definitely view this article on research methodology, especially it's interactive:* <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
 
 &nbsp;
 
