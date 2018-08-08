@@ -88,7 +88,7 @@ The *criteria development* involves coming up with a list of things you want to 
 
 **Developing a strong criteria to check documents against is critical for Confounder to be useful - and each element you check for must be verifiable using binary text classification alone.*
 
-*Check the criteria folder of this code repo for some examples of domain-specific criteria.*
+*Check the [criteria folder](https://github.com/analyticascent/confounder/tree/master/criteria) of this code repo for some examples of domain-specific criteria.*
 
 For instance, consider the list of five factors related to the impact of college education on earning. They consist of trade-offs, omitted variables, along with the question of cause of cause and effect:
 
