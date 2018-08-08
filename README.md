@@ -1,6 +1,6 @@
 # Confounder - readme
 
-#### Inferring Errors of Omission and the Content of Causal Studies Through Machine Learning
+#### Machine learning meets methodological review
 
 &nbsp;
 
@@ -10,19 +10,39 @@
 
 &nbsp;
 
+## 0. General Summary
+
+**Technical Summary:** Confounder is a [supervised machine learning](https://www.mathworks.com/help/stats/supervised-learning-machine-learning-workflow-and-algorithms.html) program that uses [binary text classification](https://en.wikipedia.org/wiki/Binary_classification) to infer the statistical methodology of individual news articles and/or academic studies.
+
+**Plain English Summary:** Confounder is a program that takes examples of documents that do and don't contain certain pieces of information, and uses those as training data to enable it to check the content of documents you don't have time to personally read. You can use it to determine the *sampling* techniques used, what *confounding* variables were controlled for, which *trade-offs* (if any) were discussed, and whether any *time-series* analysis was used to sort out which variable affected the other.
+
+To start with, you need to decide on a question about what the impact of one variable (manipulated) is on another (responding). You then need to come up with a criteria you want to check for in news articles or academic studies on that topic - these have to be things that fit a "yes/no" threshold (e.g. they either mentioned a particular confounding variable or they didn't).
+
+From there, you must gather enough sample documents to train Confounder to recognize the difference between new documents that do contain a piece of information you want to check for and ones that don't. You repeat this process for each of the things you wish Confounder to be able to check for.
+
+After training Confounder (which is essentially a text classifier) with enough examples and tuning the various settings to boost accuracy, it can be used to perform a "methological review" of news articles and academic studies you haven't read yet. This can be useful for anyone that wants to review a large number of documents containing statistical inferences to see which ones are likely to contain the most robust findings.
+
+**I must emphasize that this is not "fact-checking" software, Confounder merely analyzes the content of unread documents to determine the absence or presence of certain information so users can infer what methodologies were used to reach conclusions.**
+
+This program is only as good as the criteria you come up with and the training data you feed into it. Greater detail and usage scenarios are laid out below.
+
+&nbsp;
+
 ## 1. What is Confounder?
 
-Confounder is a proof-of-concept in unstructured data analysis. It is operationally similar to a spam filter in the sense that it can be trained to categorize text by certain features. This tool pre-screens text samples to determine if certain methodological errors have been made - specifically in articles or studies which claim that one variable (**X**) influences another (**Y**).
+In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two other variables being compared. Good studies are supposed to control for these using a variety of techniques, including random sampling techniques and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple yes/no criteria - the program has been named after this type of variable.
 
-**Please note that this is not "fact-checking" software and no such thing can exist (see final paragraph); it merely screens content to determine if it is even worth your time.**
+For over 175 years, the problem of confounding variables along with two other key methodological issues - has been known to be critical in how we draw statistical inferences: https://en.wikipedia.org/wiki/Mill's_Methods#Method_of_residue
 
-Analysis on a topic is more *reliable* if it **accurately measures** *manipulated* as well as *responding* variables, accounts for a *greater number* of significant **controlled variables**, and also makes a careful effort to find the **causal order** between both variables - *ruling out that "Y" is actually what causes "X."*
+In modern terms, this triad of standards is described below:
+
+![method of residue in modern terms](https://github.com/analyticascent/confounder/blob/master/Research%20Methodology.png)
+
+To make it easier for readers to memorize these three issues, I will refer to them as the "three C's" - *correlation, confounding, and causation.*
 
 ![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
 
-The three methodological issues refered to above will be called **measurement,** **confounding,** and **time series errors** throughout this readme. For the most part, checking for missing variables in news articles or blog posts will be the easiest implementation of this tool. As for advanced use, this project is particularly focused on semi-automating a *meta-analysis* of existing causal research on a topic - one that attempts to sort what studies accurately accounted for which of the three issues.
 
-**Aggregation** and **sampling issues** (quantity and systematic error) could in theory also be checked for, but it must be stressed that the magnitude of such flaws are more open to interpretation than the three methodological issues pictured above. Whether a study falls prey to the [Yule-Simpson effect](http://www.wsj.com/articles/SB125970744553071829) or some form of [ecological fallacy](http://www.socialresearchmethods.net/kb/fallacy.php) is likely too much of a second-order problem that can't easily be deduced from word patterns alone. Sampling quantities are often explicitly stated (often in the absract), but deducing sampling bias may also be too hard to infer using natural language processing alone.
 
 ---
 
