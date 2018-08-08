@@ -32,7 +32,7 @@ This program is only as good as the criteria you come up with and the training d
 
 In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two variables. Good studies are supposed to control for these using a variety of techniques, including random sampling and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple "yes/no" classification - the program has been named after this type of variable.
 
-For [over 175 years](https://en.wikipedia.org/wiki/Mill's_Methods), the problem of confounding variables - along with two other key methodological issues - has been known to be critical in how we draw statistical inferences.
+For [over 175 years](https://en.wikipedia.org/wiki/Mill's_Methods), the problem of confounding variables - along with two other key methodological issues - has been known to be critical in how we draw statistical inferences - a brief history of the development of such criteria can be found here: http://changingminds.org/explanations/research/conclusions/inferring_cause.htm
 
 In modern terms, this triad of standards is described below:
 
@@ -73,6 +73,8 @@ Although this three-part criteria is important, a less abstracted five-part vers
 Readers should definitely view this article on research methodology, especially it's interactive: <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
 
 A page with just the p-hacking interactive can be found here: https://projects.fivethirtyeight.com/p-hacking/index.html
+
+&nbsp;
 
 ## 2. Confounder Usage in Practice
 
