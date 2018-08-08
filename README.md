@@ -12,27 +12,27 @@
 
 ## 0. General Summary
 
-**Technical Summary:** Confounder is a [supervised machine learning](https://www.mathworks.com/help/stats/supervised-learning-machine-learning-workflow-and-algorithms.html) program that uses [binary text classification](https://en.wikipedia.org/wiki/Binary_classification) to infer the statistical methodology of individual news articles and/or academic studies.
+**Technical Summary:** Confounder is a [supervised machine learning](https://www.mathworks.com/help/stats/supervised-learning-machine-learning-workflow-and-algorithms.html) program that uses [binary text classification](https://en.wikipedia.org/wiki/Binary_classification) to infer the statistical methodology of large collections of news articles and/or academic studies.
 
-**Plain English Summary:** Confounder is a program that takes examples of documents that do and don't contain certain pieces of information, and uses those as training data to enable it to check the content of documents you don't have time to personally read. You can use it to determine the *sampling* techniques used, what *confounding* variables were controlled for, which *trade-offs* (if any) were discussed, and whether any *time-series* analysis was used to sort out which variable affected the other.
+**Plain English Summary:** Confounder is a program that takes examples of documents that do and don't contain certain pieces of information, and uses those as training data to enable it to check the content of new documents you don't have time to personally read from start to finish. You can use it to determine the *sampling* techniques used, what *confounding* variables were controlled for, which *trade-offs* (if any) were discussed, and whether any *time-series* analysis was used to sort out which variable affected the other.
 
-To start with, you need to decide on a question about what the impact of one variable (manipulated) is on another (responding). You then need to come up with a criteria you want to check for in news articles or academic studies on that topic - these have to be things that fit a "yes/no" threshold (e.g. they either mentioned a particular confounding variable or they didn't).
+To start with, you need to decide on a question about the impact of one variable (manipulated) is on another (responding). You then need to come up with a criteria you want to check for in news articles or academic studies on that topic - these have to be things that fit a "yes/no" threshold (e.g. they either mentioned a particular confounding variable or they didn't).
 
 From there, you must gather enough sample documents to train Confounder to recognize the difference between new documents that do contain a piece of information you want to check for and ones that don't. You repeat this process for each of the things you wish Confounder to be able to check for.
 
-After training Confounder (which is essentially a text classifier) with enough examples and tuning the various settings to boost accuracy, it can be used to perform a "methological review" of news articles and academic studies you haven't read yet. This can be useful for anyone that wants to review a large number of documents containing statistical inferences to see which ones are likely to contain the most robust findings.
+After training Confounder (which is essentially a text classifier) with enough examples and tuning various settings to boost accuracy, it can be used to perform a "methological review" of news articles and academic studies you haven't read yet. This can be useful for anyone that wants to review a large number of documents containing statistical inferences to see which ones are likely to contain the most robust findings.
 
-**I must emphasize that this is not "fact-checking" software, Confounder merely analyzes the content of unread documents to determine the absence or presence of certain information so users can infer what methodologies were used to reach conclusions.**
+**I must emphasize that this is not "fact-checking" software, Confounder merely analyzes the content of unread documents to determine the absence or presence of certain information so users can infer what methodologies were used to reach conclusions. Checking for *omissions* is far easier to do than getting software to judge the "truth value" of various statements.**
 
-This program is only as good as the criteria you come up with and the training data you feed into it. Greater detail and usage scenarios are laid out below.
+This program is only as good as the criteria you come up with and the training data you feed into it, so users must be aware of what criteria applies to *any* statistical inference before they make one that is domain-specific. Greater detail and usage scenarios are laid out below.
 
 &nbsp;
 
 ## 1. What is Confounder?
 
-In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two other variables being compared. Good studies are supposed to control for these using a variety of techniques, including random sampling techniques and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple yes/no criteria - the program has been named after this type of variable.
+In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two variables. Good studies are supposed to control for these using a variety of techniques, including random sampling and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple "yes/no" classification - the program has been named after this type of variable.
 
-For [over 175 years](https://en.wikipedia.org/wiki/Mill's_Methods), the problem of confounding variables along with two other key methodological issues - has been known to be critical in how we draw statistical inferences.
+For [over 175 years](https://en.wikipedia.org/wiki/Mill's_Methods), the problem of confounding variables - along with two other key methodological issues - has been known to be critical in how we draw statistical inferences.
 
 In modern terms, this triad of standards is described below:
 
@@ -46,7 +46,7 @@ To make it easier for readers to memorize these three issues, I will refer to th
 
 * **Causation:** While not 100% sufficient to claim causality, *time-series analysis* is useful for determining if the original X variable is what influences the other and not vice versa.
 
-Although this three-part criteria is important, a less abstracted five-part version has been developed to make it easier to understand what any topic-specific criteria should take into account.
+Although this three-part criteria is important, a less abstracted five-part version has been developed to make it easier to understand what any topic-specific criteria should take into account. This is because trade-offs and sampling issues are important in judging the significance of any claim.
 
 &nbsp;
 
@@ -74,29 +74,23 @@ Readers should definitely view this article on research methodology, especially 
 
 A page with just the p-hacking interactive can be found here: https://projects.fivethirtyeight.com/p-hacking/index.html
 
-&nbsp;
-
-## 2. Where the Name Came From
-
-[**Confounders**](https://en.wikipedia.org/wiki/Confounding) could be described as being additional variables that may distort the true causal relationship between causal and responding variables. As a simple example, consider a claim that [ice cream consumption leads to higher crime rates](http://icbseverywhere.com/blog/2014/10/the-logic-of-causal-conclusions/). The confounder (missing variable) in this case is the season (summer). People spend more time outdoors (and thus availability for crime rises) during the summer *and* they tend to consume more cold goods - for rather obvious reasons.
-
-![Ice cream vs Crime monthly correlation](http://icbseverywhere.com/blog/wp-content/media/2014/10/Icecream.png)
-
-Accurate studies require that as many statistically significant confounders are accounted for, otherwise the claim that "**X** causes **y**" could be false. Many things must be taking into account before causality can be inferred but the project is titled **Confounder** because checking for missing variables is the easiest (and often most crucial) step in making accurate inferences.
-
-![Scientific Errors](http://www.compoundchem.com/wp-content/uploads/2014/04/A-Rough-Guide-to-Spotting-Bad-Science-2015.png "A Rough Guide to Spotting Bad Science")
-
-&nbsp;
-
-## 3. Confounder in Theory and Practice
+## 2. Confounder Usage in Practice
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
-* **Feature Engineering:** List confounders that should have been accounted for in passages
+* **Criteria Development:** A domain-specific criteria should be made to classify documents with
 * **Training Corpus:** Create a CSV file with text of articles labeled by errors/omissions made
 * **Coding & Execution:** Read the CSV file into an Ipython notebook coded to classify the text
 
-Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn. Studies featured in a meta-analysis on a given topic will be used as a train/test set.
+The *criteria development* involves coming up with a list of things you want to tech a document for the presence of. Do you want random control trials to be used? Do you want a study to avoid using heterogenous samples that don't see the forest for the trees? Do you know of some confounding variables that need to be controlled for? What about trade-offs that either need to be mentioned or avoided altogether by using different metrics? And last but not least, do you want to check if time-series analysis was used to determine if one variable truly affected another and not the other way around?
+
+**Developing a strong criteria to check documents against is critical for Confounder to be useful - and each element you check for must be verifiable using binary text classification alone.*
+
+*Check the criteria folder of this code repo for some examples of domain-specific criteria.*
+
+## 3. How Confounder Works
+
+Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn.
 
 ![Document-Term Matrix](http://mlg.postech.ac.kr/static/research/nmf_cluster1.PNG)
 
