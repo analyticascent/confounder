@@ -86,7 +86,7 @@ A page with just the p-hacking interactive can be found here: https://projects.f
 
 The *criteria development* involves coming up with a list of things you want to tech a document for the presence of. Do you want random control trials to be used? Do you want a study to avoid using heterogenous samples that don't see the forest for the trees? Do you know of some confounding variables that need to be controlled for? What about trade-offs that either need to be mentioned or avoided altogether by using different metrics? And last but not least, do you want to check if time-series analysis was used to determine if one variable truly affected another and not the other way around?
 
-**Developing a strong criteria to check documents against is critical for Confounder to be useful - and each element you check for must be verifiable using binary text classification alone.*
+**Developing a strong criteria to check documents against is critical for Confounder to be useful - and each element you check for must be verifiable using binary text classification alone.**
 
 *Check the [criteria folder](https://github.com/analyticascent/confounder/tree/master/criteria) of this code repo for some examples of domain-specific criteria.*
 
