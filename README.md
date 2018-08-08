@@ -140,26 +140,7 @@ Confounder's operating assumption boils down to this: *documents that contain ce
 
 &nbsp;
 
-## 4. Applications, and How (non-technical) Users Can Help
-
-Unstructured data analysis could be used to identify word patterns that indicate whether a variable in a study has been accounted for. From there various forms of text analysis can be used to infer if those adjustments have been made. It may be possible to check for common signs of unreliable research using certain phrases or word transitions as features for machine learning.
-
-The remaining questions however are just what research issues this could be used for, and how other people might be able to assist in the applied use of Confounder. Even people with an entirely non-technical background can help choose issues to test with, as well as add to any existing list of missing variables already in use.
-
-For demo purposes, three major test cases will be examined for new user demonstration. They are selected because they are quantifiable cause and effect topics that a large amount of test articles can be used to build a training corpus.
-
-
-* **Yule-Simpson Effect:** Male/female average wage and job satisfaction figures might be falling prey to this
-
-* **Supply & Demand:** Checking minimum wage studies for omissions can better test theories about demand curves
-
-* **Research Review:** An existing meta-analysis could serve as a training set to automate more research review
-
-A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. 
-
-&nbsp;
-
-## 5. In Summary: Relevant Steps and Future Plans
+## 4. In Summary: Relevant Steps and Future Plans
 
 The end goal of this project - once adequate training sets exist for various topics - is for Confounder to serve as a means for conducting a *meta-analysis* of relevant research and *autosummarize* the findings. Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
