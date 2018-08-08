@@ -10,7 +10,7 @@
 
 &nbsp;
 
-## 0. General Summary
+## 1. General Summary
 
 **Technical Summary:** Confounder is a [supervised machine learning](https://www.mathworks.com/help/stats/supervised-learning-machine-learning-workflow-and-algorithms.html) program that uses [binary text classification](https://en.wikipedia.org/wiki/Binary_classification) to infer the statistical methodology of large collections of news articles and/or academic studies.
 
@@ -28,7 +28,7 @@ This program is only as good as the criteria you come up with and the training d
 
 &nbsp;
 
-## 1. What is Confounder?
+## 2. Why is Confounder Necessary?
 
 In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two variables. Good studies are supposed to control for these using a variety of techniques, including random sampling and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple "yes/no" classification - the program has been named after this type of variable.
 
@@ -76,7 +76,7 @@ A page with just the p-hacking interactive can be found here: https://projects.f
 
 &nbsp;
 
-## 2. Confounder Usage in Practice
+## 3. Confounder Usage in Practice
 
 *Conceptually* this project follows the following procedural steps for any given topic of research:
 
@@ -120,7 +120,7 @@ The next step is to collect various articles and/or studies that meet or fail th
 
 &nbsp;
 
-## 3. How Confounder Works
+## 4. How Confounder Works
 
 In order for machine learning to work with unstructured data (such as raw text), the data must be preprocessed into something structured. In the case of text classification, the raw text is *vectorized* - which means each unique vocabulary term (as well as unique word sequences in many cases) is quantified.
 
@@ -140,7 +140,7 @@ Confounder's operating assumption boils down to this: *documents that contain ce
 
 &nbsp;
 
-## 4. In Summary: Relevant Steps and Future Plans
+## 5. In Summary: Relevant Steps and Future Plans
 
 One of the end goals of this project (once adequate training sets exist for various topics) is for Confounder to serve as a means for conducting a *meta-analysis* of relevant research and *autosummarize* the findings. Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
