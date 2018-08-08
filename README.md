@@ -142,7 +142,7 @@ Confounder's operating assumption boils down to this: *documents that contain ce
 
 ## 4. In Summary: Relevant Steps and Future Plans
 
-The end goal of this project - once adequate training sets exist for various topics - is for Confounder to serve as a means for conducting a *meta-analysis* of relevant research and *autosummarize* the findings. Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
+One of the end goals of this project (once adequate training sets exist for various topics) is for Confounder to serve as a means for conducting a *meta-analysis* of relevant research and *autosummarize* the findings. Below are ten steps that must be executed for reliable results. The first five involve gathering the training data for the supervised machine learning program put to use in the second five steps. 
 
 &nbsp;
 
