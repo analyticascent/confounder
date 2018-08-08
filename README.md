@@ -32,7 +32,7 @@ This program is only as good as the criteria you come up with and the training d
 
 In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two other variables being compared. Good studies are supposed to control for these using a variety of techniques, including random sampling techniques and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple yes/no criteria - the program has been named after this type of variable.
 
-For over 175 years, the problem of confounding variables along with two other key methodological issues - has been known to be critical in how we draw statistical inferences: https://en.wikipedia.org/wiki/Mill's_Methods#Method_of_residue
+For [over 175 years](https://en.wikipedia.org/wiki/Mill's_Methods), the problem of confounding variables along with two other key methodological issues - has been known to be critical in how we draw statistical inferences.
 
 In modern terms, this triad of standards is described below:
 
@@ -40,13 +40,19 @@ In modern terms, this triad of standards is described below:
 
 To make it easier for readers to memorize these three issues, I will refer to them as the "three C's" - *correlation, confounding, and causation.*
 
-![Research Methodology Criteria](https://raw.githubusercontent.com/analyticascent/confounder/master/Research%20Methodology.png)
+* **Correlation:** A statistical claim must *accurately measure* the two variables being compared and show that a *correlation exists* between the two.
 
+* **Confounding:** Any confounding variables that might distort the true relationship between whatever X and Y variables are being compared must be controlled for.
 
+* **Causation:** While not 100% sufficient to claim causality, *time-series analysis* is useful for determining if the original X variable is what influences the other and not vice versa.
+
+Although this three-part criteria is important, a less abstracted five-part version has been developed to make it easier to understand what any topic-specific criteria should take into account.
+
+&nbsp;
 
 ---
 
-### What Good Studies Do:
+### What Reliable Statistical Inferences Do:
 
 **1. Define Their Variables:** All studies (and often news articles) that assert that one thing influences something else must clearly define what the X (manipulated/independent) and Y (responding/dependent) variables are that are being compared.
 
@@ -54,7 +60,7 @@ To make it easier for readers to memorize these three issues, I will refer to th
 
 **3. Account for Confounders:** Any additional variables that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
 
-**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - requiring cars to have tank-like durability (X) may reduce driver deaths (Y), but it probably will come at the expense of things such as cost and fuel efficiency.
+**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - requiring cars to have tank-like durability (X) may reduce driver deaths (Y), but it may lead to higher costs that prevent them from getting produced at all.
 
 **5. Use Time Series Analysis:** Does X influence Y, or could it be the other way around? Time series analysis (seeing whether changes in one variable come before another) can help answer this question.
 
@@ -64,7 +70,9 @@ To make it easier for readers to memorize these three issues, I will refer to th
 
 &nbsp;
 
-*Readers should definitely view this article on research methodology, especially it's interactive:* <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
+Readers should definitely view this article on research methodology, especially it's interactive: <a href="https://fivethirtyeight.com/features/science-isnt-broken/" target="_blank">**Science Isn't Broken**</a>
+
+A page with just the p-hacking interactive can be found here: https://projects.fivethirtyeight.com/p-hacking/index.html
 
 &nbsp;
 
