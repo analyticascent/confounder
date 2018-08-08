@@ -90,6 +90,36 @@ The *criteria development* involves coming up with a list of things you want to 
 
 *Check the criteria folder of this code repo for some examples of domain-specific criteria.*
 
+For instance, consider the list of five factors related to the impact of college education on earning. They consist of trade-offs, omitted variables, along with the question of cause of cause and effect:
+
+&nbsp;
+
+**Usage Scenario:** *What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=V122ICNS8_0
+" target="_blank"><img src="http://img.youtube.com/vi/V122ICNS8_0/0.jpg" 
+alt="ABC 20/20 - College is a Ripoff" width="480" height="360" border="10" /></a>
+
+&nbsp;
+
+**The Criteria:** 
+
+1. **Sunk Costs:** Not working as much during the 4-years of schooling subtracts from future earnings.
+
+2. **Tuition Costs:** Both the direct cost of tuition as well as interest on student loans subtracts from future salaries.
+
+3. **Outlier Grads:** Super-earner outliers skew the average for degree recipients (such as Michael Jordan w/Geography degree).
+
+4. **Aggregation:** Aggregating all majors and all non-degree holders into two groups overlooks differences majors can play.
+
+5. **Causation Order:** Did college make the student or vice versa? Those that complete college may be prone to succeed beforehand.
+
+&nbsp;
+
+The next step is to collect various articles and/or studies that meet or fail those various criteria. That resulting training set is key if Confounder is to be accurate at predicting the kinds of errors and omissions future text passages have made. No programming knowledge is necessary to perform those steps, thus anyone with domain knowledge about (or for that matter, a serious interest in) a given topic is encouraged to give input.
+
+&nbsp;
+
 ## 3. How Confounder Works
 
 Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn.
@@ -121,31 +151,7 @@ For demo purposes, three major test cases will be examined for new user demonstr
 
 * **Research Review:** An existing meta-analysis could serve as a training set to automate more research review
 
-A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. For instance, consider the list of five factors related to the impact of college education on earning. They consist of trade-offs, omitted variables, along with the question of cause of cause and effect:
-
-**Question:** *What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=V122ICNS8_0
-" target="_blank"><img src="http://img.youtube.com/vi/V122ICNS8_0/0.jpg" 
-alt="ABC 20/20 - College is a Ripoff" width="480" height="360" border="10" /></a>
-
-**The Criteria:** 
-
-&nbsp;
-
-1. **Sunk Costs:** Not working as much during the 4-years of schooling subtracts from future earnings.
-
-2. **Tuition Costs:** Both the direct cost of tuition as well as interest on student loans subtracts from future salaries.
-
-3. **Outlier Grads:** Super-earner outliers skew the average for degree recipients (such as Michael Jordan w/Geography degree).
-
-4. **Aggregation:** Aggregating all majors and all non-degree holders into two groups overlooks differences majors can play.
-
-5. **Causation Order:** Did college make the student or vice versa? Those that complete college may be prone to succeed beforehand.
-
-&nbsp;
-
-The next step is to collect various articles and/or studies that meet or fail those various criteria. That resulting training set is key if Confounder is to be accurate at predicting the kinds of errors and omissions future text passages have made. No programming knowledge is necessary to perform those steps, thus anyone with domain knowledge about (or for that matter, a serious interest in) a given topic is encouraged to give input.
+A non-technical user can easily contribute to this project, mainly by adding to (or creating from scratch) missing variable lists or collecting sample articles that meet or fail those various criteria. 
 
 &nbsp;
 
