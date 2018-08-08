@@ -112,7 +112,7 @@ alt="ABC 20/20 - College is a Ripoff" width="480" height="360" border="10" /></a
 
 4. **Aggregation:** Aggregating all majors and all non-degree holders into two groups overlooks differences majors can play.
 
-5. **Causation Order:** Did college make the student or vice versa? Those that complete college may be prone to succeed beforehand.
+5. **Causation Order:** Did college make the student successful or do successful students make it through college? Those that complete may already be prone to succeed beforehand.
 
 &nbsp;
 
@@ -122,17 +122,21 @@ The next step is to collect various articles and/or studies that meet or fail th
 
 ## 3. How Confounder Works
 
-Right now, testing is under way with the use of an IPython notebook that converts sample studies into document-term matrices which are then analyzed by a multinomial naive Bayes classifier in Scikit-Learn.
+In order for machine learning to work with unstructured data (such as raw text), the data must be preprocessed into something structured. In the case of text classification, the raw text is *vectorized* - which means each unique vocabulary term (as well as unique word sequences in many cases) is quantified.
+
+The end result is something called *document-term matrices*. These are statistical fingerprints for how different documents differ by how often various words appear. The image below gives a good sense of what that looks like under the hood:
 
 ![Document-Term Matrix](http://mlg.postech.ac.kr/static/research/nmf_cluster1.PNG)
 
-The operating assumption boils down to this: *Good studies will have term frequencies that are distinct from bad ones.* Any studies featured in a meta-analysis that described what the study did or did not account for can easily be used to train a classifier. If academic studies on a topic that... 
+Confounder's operating assumption boils down to this: *documents that contain certain pieces of information will have term frequencies that are distinct from those that lack them.* Any studies featured in a meta-analysis that described what the study did or did not account for can easily be used to train a classifier. If academic studies on a topic that... 
 
 * Do not effectively establish a statistical association between hypothesized independent and responding variables
 * Fail to account for all statistically significant confounders - or control variables of any kind
 * Do not accurately distinguish the order of causation between the two variables (conflating cause and effect)
 
 ...are lexically distinct enough from studies on the same topic that *do* manage to meet the three criteria, then there is no reason a machine learning program cannot be trained with sample studies to identify flawed studies from robust ones. How true this turns out to be may depend on the topic in question in addition to how authors of a study choose to write about it.
+
+**Current testing has been promising thus far. For example, getting a classifier to distinguish if an article or study about college wage gains mentioned tuition cost or not is incredibly easy to do without overfitting to the training data alone.*
 
 &nbsp;
 
