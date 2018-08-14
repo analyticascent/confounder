@@ -28,7 +28,7 @@ This program is only as good as the criteria you come up with and the training d
 
 &nbsp;
 
-## 2. Why is Confounder Necessary?
+## 2. What Does Confounder Check For?
 
 In statistics, a *confounding variable* is a variable that distorts what the true relationship is between two variables. Good studies are supposed to control for these using a variety of techniques, including random sampling and time-series analysis. Because [omitted-variable bias](https://en.wikipedia.org/wiki/Omitted-variable_bias) is so common - yet easy to check for using a simple "yes/no" classification - the program has been named after this type of variable.
 
@@ -94,7 +94,11 @@ For instance, consider the list of five factors related to the impact of college
 
 &nbsp;
 
-**Usage Scenario:** *What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
+---
+
+### Usage Scenario - College Education versus Lifetime Earnings:
+
+*What is the impact of college education on lifetime earnings? Does a 4-year degree really get you a million dollars more over your working life?*
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=V122ICNS8_0
 " target="_blank"><img src="http://img.youtube.com/vi/V122ICNS8_0/0.jpg" 
