@@ -60,7 +60,7 @@ Although this three-part criteria is important, a less abstracted five-part vers
 
 **3. Account for Confounders:** Any additional variables that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
 
-**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - requiring cars to have tank-like durability (X) may reduce driver deaths (Y), but it may lead to higher costs that prevent them from getting produced at all.
+**4. Acknowledge Trade-Offs:** A trade-off can be thought of as another Y variable. Example - staying up late (X) may give your more time to study (Y), but that benefit could be offset from being exhuasted in class the next day.
 
 **5. Use Time Series Analysis:** Does X influence Y, or could it be the other way around? Time series analysis (seeing whether changes in one variable come before another) can help answer this question.
 
