@@ -6,9 +6,9 @@ For example, it could be used to check if a [confounding variable was omitted](h
 
 **Consider this scenario:** Did a study claiming that *obtaining a four-year degree* (**X**) leads to a *million dollars more* in lifetime earnings (**Y**) subtract the cost of tuition to get that result? Or whether those that complete such schooling were already likely to be successful for other reasons? What about the problem of "super earners" skewing the average earnings (and thus making the *median* lifetime earnings more reliable of a figure)?
 
-For each of those questions, you would gather aricles/studies that meet or fail the criteria and use those to train Confounder to tell the difference between them. You can then track news articles, academic studies, blog posts, and even social media comments to see where and how often these kinds of errors pop up.
+*For each of those questions, news aricles/studies that meet or fail the criteria are gathered and used to train Confounder to tell the difference. It then becomes possible to track news articles, academic studies, blog posts, and even social media comments to see where and how often these kinds of errors pop up.*
 
-It can also be used to take a taxonomy of arguments (or even a FAQ list), and semi-automate the process of tagging statements made online with pre-defined responses. This requires an existing knowledge base to work from, in addition to the training data you would need to "show" Confounder what to look for.
+Confounder can also be used to take a taxonomy of arguments (or even a FAQ list), and semi-automate the process of tagging statements made online with pre-defined responses. This requires an existing knowledge base to work from, in addition to the training data you would need to "show" Confounder what to look for.
 
 Below are the steps it would take to implement Confounder as a binary text classification tool that can be monetized. One special focus right now is helping smaller news sites and blogs that want to flag errors/omissions in larger publications, as well as helping academic researchers save time and grant money. **The end goal is to provide a service that benefits clients to a greater degree than what would be charged to them.**
 
