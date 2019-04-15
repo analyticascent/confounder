@@ -47,3 +47,7 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 &nbsp;
 
 **General Workflow:** First, sample articles and studies that discuss the “college premium” are gathered, read, and labeled by which of the above errors/omissions are made. Once a representative corpus of text has been gathered, they are all pre-processed into a file that contains the name of the document, the raw text itself, and five more columns indicating which of the five factors were mentioned. These are used to iteratively train a natural language processing classifier to accurately detect which of the above factors were omitted or not in unread articles and studies, rather than having to check them all by hand long after they have been published.
+
+&nbsp;
+
+*For a more detailed summary of how a Confounder deployment works in practice, read [this markdown file](https://github.com/analyticascent/confounder/blob/master/confounder-pipeline.md).*
