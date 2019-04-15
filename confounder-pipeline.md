@@ -1,7 +1,5 @@
 # The Confounder Pipeline Process Explained
 
-**NOTE:** *Please read [the non-technical one-page summary](https://github.com/analyticascent/confounder/blob/master/Confounder%20One-Page%20Summary.pdf) of what Confounder does if you are new to this repo.*
-
 &nbsp;
 
 **General Summary:** Confounder is a [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) tool that uses supervised [machine learning](https://towardsdatascience.com/the-7-steps-of-machine-learning-2877d7e5548e) to *infer the absence or presence of certain information in raw text.* In plain English, this means it uses techniques similar to those used in spam filtering to classify text by what kind of information it contains. *This allows someone to see what criteria are met by various documents about a topic without having to read them by hand.* It is primarily focused on checking for certain statistical errors related to claims about one thing (**X**) affecting something else (**Y**). For example, it could be used to check if a [confounding variable was omitted](https://youtu.be/EhcWQmg9EeE) in an analysis, or whether [random sampling](https://www.youtube.com/watch?v=LttLBhTOVvo) was used; those in addition to a variety of other features discussed in section 1 (*Content Criteria*).
@@ -18,7 +16,8 @@ Each "pipeline" provided will consist of **1)** content *criteria*, **2)** train
 
 &nbsp;
 
-### 1. **Content Criteria:** *what will Confounder check for?*
+## 1. **Content Criteria:** *what will Confounder check for?*
+
 Before Confounder can even be used, we need to determine what information does a client want to check for the presence of in a news article or academic study. For policy issues, it's often just a matter of listing all the possible *trade-offs involved* as well as the *confounding variables* that conceal them. **But generally, any criteria about statistical claims (X leads to Y) can boil down to these:**
 
 1. **Variables:**
@@ -44,7 +43,7 @@ But many clients may be more focused on **finding *specific statements* and matc
 
 &nbsp;
 
-### 2. **Training Data:** *what does Confounder need to learn from?*
+## 2. **Training Data:** *what does Confounder need to learn from?*
 
 Without training data, Confounder is nothing more than the software equivalent to a rocket without fuel. To understand why, readers should know what supervised machine learning is and how it differs from standard programming techniques.
 
@@ -78,7 +77,7 @@ For this pipeline stage, the goal is to find enough examples of documents about 
 
 &nbsp;
 
-### 3. **Optimization & Deployment:** *how is Confounder put to use?*
+## 3. **Optimization & Deployment:** *how is Confounder put to use?*
 
 Now that the training data is gathered, labeled, and formatted, it can then be read in by Confounder to train various classification models that infer the content of new documents. **This is an interative stage that aims to do the following:**
 
@@ -100,6 +99,6 @@ Technical specifics of what must be done in order for Condounder to achieve high
 
 &nbsp;
 
-### 4. **Revenue Model:** *what are clients actually charged for?*
+## 4. **Revenue Model:** *what are clients actually charged for?*
 
 ##### [This section is redacted on public repositories]
