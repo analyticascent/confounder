@@ -14,13 +14,13 @@
 
 &nbsp; **1. Well-Defined Variables:** All studies (and news articles) that use regression analysis must define the X (manipulated/independent) and Y (responding/dependent) variables with metrics that have as little variance as possible.
 
-&nbsp; **2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones. And techniques such as [random control trials]() are helpful for many kinds of research. Heterogeneity within sample groups is also an issue.
+&nbsp; **2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones. And techniques such as [random control trials](https://www.youtube.com/watch?v=LttLBhTOVvo) are helpful for many kinds of research. Heterogeneity within samples can give [misleading results](https://www.autodeskresearch.com/publications/samestats).
 
-&nbsp; **3. Considers Confounding:** Any additional variables that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
+&nbsp; **3. Considers Confounding:** Any [additional variables](https://www.youtube.com/watch?v=b4jhrK03zhs) that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
 
-&nbsp; **4. Acknowledges Trade-Offs:** A trade-off can be thought of as another Y variable. Example - staying up late (X) may give your more time to study (Y), but that benefit could be offset from being exhuasted in class the next day.
+&nbsp; **4. Acknowledges Trade-Offs:** A trade-off can be thought of as another Y variable. For example, staying up late (X) may give your more time to study (Y), but that benefit could be offset from being exhuasted in class the next day.
 
-&nbsp; **5. Sorts Cause from Effect:** Does X influence Y, or could it be the other way around? *Time series analysis* can help sort out cause from effect by seeing whether changes in one variable come before another. Correlations alone cannot answer this.
+&nbsp; **5. Sorts Cause from Effect:** Does X influence Y, or the other way around? [Time series analysis and panel data](https://www.youtube.com/watch?v=NCDgJRTvYsY) can help sort out cause from effect by seeing whether changes in one variable come before another. Correlations alone cannot answer this.
 
 &nbsp;
 
@@ -31,7 +31,7 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 &nbsp;
 
-![](http://www.incontext.indiana.edu/2009/mar-apr/images/earnings_fig2.gif)
+![college earnings graph](http://www.incontext.indiana.edu/2009/mar-apr/images/earnings_fig2.gif)
 
 &nbsp;
 
