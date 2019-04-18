@@ -12,15 +12,15 @@
 ### What Do Reliable Statistical Inferences Depend On?
 ---
 
-&nbsp; **1. Well-Defined Variables:** All studies (and often news articles) that assert that one thing influences something else must clearly define the X (manipulated/independent) and Y (responding/dependent) variables are that are being compared.
+&nbsp; **1. Well-Defined Variables:** All studies (and news articles) that use regression analysis must define the X (manipulated/independent) and Y (responding/dependent) variables with metrics that have as little variance as possible.
 
-&nbsp; **2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones and techniques such as random control trials are often helpful for many kinds of research. Heterogeneity within sample groups is also an issue.
+&nbsp; **2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones. And techniques such as [random control trials]() are helpful for many kinds of research. Heterogeneity within sample groups is also an issue.
 
 &nbsp; **3. Considers Confounding:** Any additional variables that may distort how X appears to cause Y need to be accounted for. This is a common failure among studies, yet easy to infer the absence of - hence the project name.
 
 &nbsp; **4. Acknowledges Trade-Offs:** A trade-off can be thought of as another Y variable. Example - staying up late (X) may give your more time to study (Y), but that benefit could be offset from being exhuasted in class the next day.
 
-&nbsp; **5. Uses Time Series Analysis:** Does X influence Y, or could it be the other way around? Time series analysis (seeing whether changes in one variable come before another) can help answer this question.
+&nbsp; **5. Sorts Cause from Effect:** Does X influence Y, or could it be the other way around? *Time series analysis* can help sort out cause from effect by seeing whether changes in one variable come before another. Correlations alone cannot answer this.
 
 &nbsp;
 
