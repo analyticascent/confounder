@@ -37,16 +37,18 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 **That claim (and above chart) results from omitting multiple methodological errors and omissions, which include:**
 
-* The sunk cost of not working as much during school years 
-* Any tuition costs including interest on student loans, residency, etc 
-* Super-earner outliers skewing the average for degree recipients 
-* Aggregating all majors and all non-degree holders into two groups
-* Jobs for high-earning majors tend to be in more expensive cities
-* Those that complete college may be prone to succeed beforehand
+* The sunk cost of not working as much before obtaining the degree - **(trade-off)**
+* Any tuition costs including interest on student loans, residency, etc - **(trade-off)**
+* Super-earner outliers skewing the average for degree recipients - **(sampling issue)**
+* Different degrees lead to very different lifetime earnings - **(sampling issue)**
+* Jobs for high-earning majors tend to be in more expensive cities - **(trade-off)**
+* Those that do complete college may already be prone to succeed - **(cause/effect)**
 
 &nbsp;
 
-**General Workflow:** First, sample articles and studies that discuss the “college premium” are gathered, read, and labeled by which of the above errors/omissions are made. Once a representative corpus of text has been gathered, they are all pre-processed into a file that contains the name of the document, the raw text itself, and five more columns indicating which of the five factors were mentioned. These are used to iteratively train a natural language processing classifier to accurately detect which of the above factors were omitted or not in unread articles and studies, rather than having to check them all by hand long after they have been published.
+&nbsp; **Confounder's Workflow:** Pick a *topic*, and come up with a list of *things to check for* (like the topic and criteria listed above). Then gather *sample* documents about that topic, and *label them* by which listed factors they mention. This will be used to train a text classifier to tell which of that information is absent or present in a given document. The classifier is then trained and optimized for accuracy, which then gets deployed as a pipeline that can save you the trouble of having to check new documents against that criteria by hand.
+
+**The final result is a tool capable of screening large collections of documents against a criteria that is specific to the chosen topic. Users are only limited by computing power - not time, or effective reading speed.**
 
 &nbsp;
 
