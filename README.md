@@ -35,18 +35,18 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 &nbsp;
 
-**That claim (and above chart) results from omitting multiple methodological errors and omissions, which include:**
+**That claim (and above chart) results from multiple errors and omissions, which include:**
 
 * The sunk cost of not working as much before obtaining the degree - **(trade-off)**
 * Any tuition costs including interest on student loans, residency, etc - **(trade-off)**
-* Super-earner outliers skewing the average for degree recipients - **(sampling issue)**
-* Different degrees lead to very different lifetime earnings - **(sampling issue)**
+* Super-earner outliers skewing the average for degree recipients - **(sampling)**
+* Different degrees lead to very different lifetime earnings - **(sampling)**
 * Jobs for high-earning majors tend to be in more expensive cities - **(trade-off)**
 * Those that do complete college may already be prone to succeed - **(cause/effect)**
 
 &nbsp;
 
-&nbsp; **Confounder's Workflow:** Pick a *topic*, and come up with a list of *things to check for* (like the topic and criteria listed above). Then gather *sample* documents about that topic, and *label them* by which listed factors they mention. This will be used to train a text classifier to tell which of that information is absent or present in a given document. The classifier is then trained and optimized for accuracy, which then gets deployed as a pipeline that can save you the trouble of having to check new documents against that criteria by hand.
+&nbsp; **Confounder's Workflow:** Pick a topic, and come up with a list of things to check for (like the topic and criteria listed above). Then gather sample documents about that topic, and label them by which listed factors they mention. This will be used to train a text classifier to tell which of that information is absent or present in a given document. The classifier is trained and optimized for accuracy, then gets deployed as a data pipeline that can save you the trouble of having to check new documents against that criteria by hand. The documents can be online articles, PDF files, or any other raw text source.
 
 **The final result is a tool capable of screening large collections of documents against a criteria that is specific to the chosen topic. Users are only limited by computing power - not time, or effective reading speed.**
 
