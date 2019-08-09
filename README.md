@@ -8,7 +8,7 @@
 * **What:** A program that can infer whether certain pieces of information are present in a passage of text.
 * **Why:** To infer the methodology that was used when a statistical claim about two variables was reached.
 * **How:** Using supervised machine learning in the form of binary text classification (similar to spam filtering).
-* **Who:** Anyone that wants to avoid checking for such information in news articles and studies **by hand** could make use of Confounder. It would be of special interest to journalists/editors, academic researchers (especially those performing [reviews of existing research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539417/)), or public policy analysts. Confounder could also be used (or contributed to) by anyone in general that wants to vet documents by what information they contain.
+* **Who:** Anyone that wants to avoid checking for such information in news articles and studies *by hand* could make direct use of Confounder. It would be of special interest to journalists/editors, academic researchers (especially those performing [reviews of existing research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539417/)), or public policy analysts. Confounder could also be used (or contributed to) by anyone in general that wants to sort documents by what information they contain.
 
 &nbsp;
 
@@ -30,7 +30,7 @@ Articles and studies that attempt to infer such relationships may contain *forma
 ### What Do Reliable Statistical Inferences Depend On?
 ---
 
-&nbsp; **1. Well-Defined Variables:** All studies (and news articles) that use regression analysis must define the X (manipulated/independent) and Y (responding/dependent) variables with metrics that have as little variance as possible.
+&nbsp; **1. Well-Defined Variables:** All text passages that use regression analysis must clearly state the two variables being compared, and utilize invariant metrics for them (units of measure that always mean the same thing).
 
 &nbsp; **2. Effective Sampling:** Broadly speaking, larger samples are preferable to smaller ones. And techniques such as [random control trials](https://www.youtube.com/watch?v=LttLBhTOVvo) are helpful for many kinds of research. Heterogeneity within samples can give [misleading results](https://www.autodeskresearch.com/publications/samestats).
 
@@ -38,7 +38,7 @@ Articles and studies that attempt to infer such relationships may contain *forma
 
 &nbsp; **4. Acknowledges Trade-Offs:** A trade-off can be thought of as another Y variable. For example, staying up late (X) may give your more time to study (Y), but that benefit could be offset from being exhuasted in class the next day.
 
-&nbsp; **5. Sorts Cause from Effect:** Does X influence Y, or the other way around? [Time series analysis and panel data](https://www.youtube.com/watch?v=NCDgJRTvYsY) can help sort out cause from effect by seeing whether changes in one variable come before another. Correlations alone cannot answer this.
+&nbsp; **5. Sorts Cause from Effect:** Does X influence Y, or vice versa? [Time series analysis and panel data](https://www.youtube.com/watch?v=NCDgJRTvYsY) can help sort cause from effect by seeing which variable changes before the other. Correlations alone cannot answer this.
 
 &nbsp;
 
