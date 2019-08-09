@@ -1,13 +1,17 @@
 # Confounder
-#### *Inferring Errors of Omission*
+### *Inferring Errors of Omission*
 
-&nbsp;&nbsp; One of the most common forms of information used for [decision-making](https://online.csp.edu/blog/business/decision-making-process) are claims about *how two variables are related,* known as [regression analysis](https://news.mit.edu/2010/explained-reg-analysis-0316). 
+&nbsp;
+
+&nbsp;&nbsp; One of the most common forms of information used for [decision-making](https://online.csp.edu/blog/business/decision-making-process) are claims about *how two variables are related,* known as [regression analysis](https://news.mit.edu/2010/explained-reg-analysis-0316). Pictured below are simple examples of regression analysis, with different variables and different relationships between them:
+
+&nbsp;
 
 ![](http://resources.esri.com/help/9.3/arcgisengine/java/GP_ToolRef/Spatial_Statistics_toolbox/scatterplots.png)
 
-Articles and studies that attempt to infer such relationships may contain formal errors. For example, some may include *poor metrics* for the variables being analyzed (sample size and technique issues for instance). Many overlook *confounding variables* that distort how the two main variables are related (this is often referred to as [omitted variable bias](https://www.youtube.com/watch?v=b4jhrK03zhs)). Last but not least, a statistical claim may fail to demonstrate the *order of causation* between the two variables in question (did X change before Y did, or vice versa?). 
+Articles and studies that attempt to infer such relationships may contain formal errors. For example, some may include *poor metrics* for the variables being analyzed (sample size and technique issues for instance). They may overlook *confounding variables* that distort how the two main variables are related (this is often referred to as [omitted variable bias](https://www.youtube.com/watch?v=b4jhrK03zhs)). Last but not least, a statistical claim may fail to demonstrate the *order of causation* between the two variables in question (did X change before Y did, or vice versa?). 
 
-These can be easily summarized as *the three C's* of regression analysis: *Correlation, Confounding, and Causation.* *Confounder* is a machine learning program that uses binary text classification to infer whether chosen pieces of information are present in a body of text or not. This can be used to infer the methodology a passage of text used to reach a statistical conclusion about how two variables are related.
+These can be summarized as *the three C's* of regression analysis: *Correlation, Confounding, and Causation.* *Confounder* is a machine learning program that uses binary text classification to infer whether chosen pieces of information are present in a body of text. This can be used to infer the methodology a passage of text used to reach a statistical conclusion about how two variables are related.
 
 &nbsp;
 
