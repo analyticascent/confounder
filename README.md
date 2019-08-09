@@ -3,15 +3,27 @@
 
 &nbsp;
 
-&nbsp;&nbsp; One of the most common forms of information used for [decision-making](https://online.csp.edu/blog/business/decision-making-process) are claims about *how two variables are related,* known as [regression analysis](https://news.mit.edu/2010/explained-reg-analysis-0316). Pictured below are simple examples of regression analysis, with different variables and different relationships between them:
+**Summary:** Here is a bullet point summary of the purpose of this project (technical details are [discussed elsewhere](https://github.com/analyticascent/confounder/blob/master/confounder-pipeline.md)).
+
+* **What:** A program that can infer whether certain pieces of information are present in a passage of text.
+* **Why:** To infer the methodology that was used when a statistical claim about two variables was reached.
+* **How:** Using supervised machine learning in the form of binary text classification (similar to spam filtering).
+* **Who:** Anyone that wants to avoid checking for such information in news articles and studies **by hand** could make use of Confounder. It would be of special interest to journalists/editors, academic researchers (especially those performing [reviews of existing research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539417/)), or public policy analysts. Confounder could also be used (or contributed to) by anyone in general that wants to vet documents by what information they contain.
+
+&nbsp;
+
+### The Subject Matter of Confounder
+---
+
+One of the most common forms of information used for [decision-making](https://online.csp.edu/blog/business/decision-making-process) are claims about **how two variables are related**, known as [regression analysis](https://news.mit.edu/2010/explained-reg-analysis-0316). Pictured below are simple examples of regression analysis with different variables and different relationships between them:
 
 &nbsp;
 
 ![](http://resources.esri.com/help/9.3/arcgisengine/java/GP_ToolRef/Spatial_Statistics_toolbox/scatterplots.png)
 
-Articles and studies that attempt to infer such relationships may contain formal errors. For example, some may include *poor metrics* for the variables being analyzed (sample size and technique issues for instance). They may overlook *confounding variables* that distort how the two main variables are related (this is often referred to as [omitted variable bias](https://www.youtube.com/watch?v=b4jhrK03zhs)). Last but not least, a statistical claim may fail to demonstrate the *order of causation* between the two variables in question (did X change before Y did, or vice versa?). 
+Articles and studies that attempt to infer such relationships may contain *formal errors*, not just fabricated figures. For example, some may include **poor metrics** for the variables being analyzed (sample size and technique issues for instance). They may overlook **confounding variables** that distort how the two main variables are related (this is often referred to as [omitted variable bias](https://www.youtube.com/watch?v=b4jhrK03zhs)). Last but not least, a statistical claim may fail to demonstrate the **order of causation** between the two variables in question (did X change before Y did, or vice versa?). 
 
-These can be summarized as *the three C's* of regression analysis: *Correlation, Confounding, and Causation.* *Confounder* is a machine learning program that uses binary text classification to infer whether chosen pieces of information are present in a body of text. This can be used to infer the methodology a passage of text used to reach a statistical conclusion about how two variables are related.
+**These can be summarized as *the three C's* of regression analysis:** *Correlation, Confounding, and Causation.* What *Confounder* does is utilize machine learning (through binary text classification) to infer whether chosen pieces of information are present in a body of text. This can be used to infer the *methodology* a passage of text used to reach a *statistical conclusion* about how two variables are related.
 
 &nbsp;
 
