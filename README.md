@@ -45,7 +45,7 @@ Articles and studies that attempt to infer such relationships may contain *forma
 ### Example Scenario: Assessing the impact of college education on lifetime earnings
 ---
 
-To get an idea of how *Confounder* works in practice, consider the claim that recipients of a 4-year degree typically earn a million dollars more over their lifetime:
+To get an idea of how *Confounder* works in practice, consider the claim that recipients of a 4-year degree (X) typically earn a million dollars more over their lifetime (Y):
 
 &nbsp;
 
@@ -53,7 +53,7 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 &nbsp;
 
-**That claim (and above chart) results from multiple errors and omissions, which include:**
+**That claim (and thus the above chart) is the result of multiple errors and omissions, which include:**
 
 * The sunk cost of not working as much before obtaining the degree - **(trade-off)**
 * Any tuition costs including interest on student loans, residency, etc - **(trade-off)**
