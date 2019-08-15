@@ -5,9 +5,9 @@
 
 **Summary:** Here is a bullet point summary of the purpose of this project (technical details are [discussed elsewhere](https://github.com/analyticascent/confounder/blob/master/confounder-pipeline.md)).
 
-* **What:** A program that can infer whether certain pieces of information are present in a passage of text.
-* **Why:** To infer the methodology that was used when a statistical claim about two variables was reached.
-* **How:** Using supervised machine learning in the form of binary text classification (similar to spam filtering).
+* **What:** A program that can infer whether certain pieces of information are present in passages of text.
+* **Why:** To infer the methodology that was used when claims about the relationship between two variables are made.
+* **How:** Using supervised machine learning in the form of binary text classification (somewhat similar to spam filtering).
 * **Who:** Anyone that wants to avoid checking for such information in news articles and studies *by hand* could make direct use of Confounder. It would be of special interest to journalists/editors, academic researchers (especially those performing [reviews of existing research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC539417/)), or public policy analysts. Confounder could also be used (or contributed to) by anyone in general that wants to sort documents by what information they contain.
 
 &nbsp;
