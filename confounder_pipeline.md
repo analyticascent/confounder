@@ -91,7 +91,7 @@ Now that the training data is gathered, labeled, and formatted, it can then be r
 * Models that *underfit* fail to have much predictive power with *any data at all*, training or otherwise (variance)
 * The best models manage to find a balance between these two extremes, and they require repeat tests to develop
 
-![bias-variance visual](https://github.com/analyticascent/confounder/raw/master/overfitting_underfitting.png)
+![bias-variance visual](https://raw.githubusercontent.com/analyticascent/confounder/master/images/overfitting_underfitting.png)
 
 Technical specifics of what must be done in order for Condounder to achieve high model accuracy are described in the demo notebook file contained in the code repository. Such details are beyond the scope of this document.
 
