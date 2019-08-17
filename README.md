@@ -49,7 +49,7 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 &nbsp;
 
-![college earnings graph](http://www.incontext.indiana.edu/2009/mar-apr/images/earnings_fig2.gif)
+![college earnings graph](https://raw.githubusercontent.com/analyticascent/confounder/master/images/college_earnings.gif)
 
 &nbsp;
 
