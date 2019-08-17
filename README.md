@@ -19,7 +19,7 @@ One of the most common forms of information used for [decision-making](https://o
 
 &nbsp;
 
-![](http://resources.esri.com/help/9.3/arcgisengine/java/GP_ToolRef/Spatial_Statistics_toolbox/scatterplots.png)
+![](https://raw.githubusercontent.com/analyticascent/confounder/master/images/scatterplots.png)
 
 Articles and studies that attempt to infer such relationships may contain *formal errors*, not just fabricated figures. For example, some may include **poor metrics** for the variables being analyzed (sample size and technique issues for instance). They may overlook **confounding variables** that distort how the two main variables are related (this is often referred to as [omitted variable bias](https://www.youtube.com/watch?v=b4jhrK03zhs)). Last but not least, a statistical claim may fail to demonstrate the **order of causation** between the two variables in question (did X change before Y did, or vice versa?). 
 
