@@ -16,4 +16,6 @@ Direct links to where I found images used in this repository, as well as links t
 
 * [**statistical_claims_criteria_print.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/statistical_claims_criteria_print.png) - _Image that I developed_
 
+* [**supervised_learning.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/supervised_learning.png) - _[Direct Link](https://www.dataschool.io/content/images/2016/08/supervised_learning.png) | [Article](https://www.dataschool.io/learn/)_
+
 * [**text_vectorization.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/text_vectorization.png) - _[Direct Link](http://mlg.postech.ac.kr/static/research/nmf_cluster1.PNG) | [Article](http://mlg.postech.ac.kr/research/nmf)_
