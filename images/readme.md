@@ -1,7 +1,8 @@
 # Image Sources
 
-Direct links to where I found images used in this repository, as well as links to the pages where they appeared.
+Direct links to where I found images used in this repository, as well as links to the pages where they appeared:
 
+&nbsp;
 
 * [**college_earnings.gif**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/college_earnings.gif) - _[Direct Link](http://www.incontext.indiana.edu/2009/mar-apr/images/earnings_fig1.gif) | [Article](http://www.incontext.indiana.edu/2009/mar-apr/article1.asp)_
 
@@ -13,6 +14,6 @@ Direct links to where I found images used in this repository, as well as links t
 
 * [**scatterplots.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/scatterplots.png) - _[Direct Link](http://resources.esri.com/help/9.3/arcgisdesktop/com/gp_toolref/spatial_statistics_toolbox/scatterplots.png) | [Article](http://resources.esri.com/help/9.3/arcgisdesktop/com/gp_toolref/spatial_statistics_toolbox/regression_analysis_basics.htm)_
 
-* [**statistical_claims_criteria_print.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/statistical_claims_criteria_print.png) - _Image I developed_
+* [**statistical_claims_criteria_print.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/statistical_claims_criteria_print.png) - _Image that I developed_
 
 * [**text_vectorization.png**](https://raw.githubusercontent.com/analyticascent/confounder/master/images/text_vectorization.png) - _[Direct Link](http://mlg.postech.ac.kr/static/research/nmf_cluster1.PNG) | [Article](http://mlg.postech.ac.kr/research/nmf)_
