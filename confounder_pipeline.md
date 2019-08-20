@@ -48,7 +48,9 @@ Before Confounder can even be used, we need to determine what information does a
 
 &nbsp;
 
-But many clients may be more focused on finding *specific statements* and matching them with *responses* in a point-counterpoint format: **If** a body of text contains statement X, **then** tag it with response Y. **This is closer to traditional "fact-checking" and easier for non-specialists to understand, but such criteria can often be more subjective than those that check for statistical errors, so it must be stressed that this approach is not the main focus for Confounder in the long-term.**
+But many clients may be more focused on finding *specific statements* and matching them with *responses* in a point-counterpoint format: **If** a body of text contains statement X, **then** tag it with response Y.
+
+This is closer to traditional "fact-checking" and easier for non-specialists to understand, but such criteria can often be more subjective than those that check for statistical errors, so **it must be stressed that this approach is not the main focus for Confounder in the long-term.**
 
 &nbsp;
 
