@@ -28,8 +28,10 @@ Each "pipeline" provided will consist of **1)** criteria that certain content wi
 
 Before Confounder can even be used, we need to determine what information does a client want to check for the presence of in a news article or academic study. For policy issues, it's often just a matter of listing all the possible *trade-offs involved* as well as the *confounding variables* that conceal them. **But generally, any criteria about statistical claims (X leads to Y) can boil down to these:**
 
+&nbsp;
+
 1. **Variables:**
-    * What are the X and Y variables in question? (this is truly what defines the topic the item list is for)
+    * What are the X and Y variables in question? (this is truly what defines the topic the criteria is for)
     * Are units of measurement for them invariant? ("mass shooting" and "terrorist attacks" are not invariant but individual deaths are, also consider what base rate fallacy means when choosing metrics)
     * If using any composite variables, how were they formed? (how you combine or weigh the components can change the results)
 2. **Sampling:**
@@ -44,16 +46,15 @@ Before Confounder can even be used, we need to determine what information does a
     * What was the slope of change before and after change(s) to X?
     * Does X really come before Y or is it vice versa? (hospitals don't generally *cause* sickness, instead sick people *go to hospitals*)
 
+&nbsp;
 
-**The above is the primary focus for Confounder:** *checking the methodology used to reach a conclusion.* 
-
-But many clients may be more focused on **finding *specific statements* and matching them with *responses* in a point-counterpoint format:** *If* a body of text contains **statement X**, *then* tag it with **response Y**. This is closer to traditional "fact-checking" and easier for non-specialists to understand, *but such criteria can often be more subjective than those that check for statistical errors, so it must be stressed that this approach is not the main focus for Confounder in the long-term.*
+But many clients may be more focused on finding *specific statements* and matching them with *responses* in a point-counterpoint format: **If** a body of text contains statement X, **then** tag it with response Y. **This is closer to traditional "fact-checking" and easier for non-specialists to understand, but such criteria can often be more subjective than those that check for statistical errors, so it must be stressed that this approach is not the main focus for Confounder in the long-term.**
 
 &nbsp;
 
 ## 2. **Training Data:** *what does Confounder need to learn from?*
 
-Without training data, Confounder is nothing more than the software equivalent to a rocket without fuel. To understand why, readers should know what supervised machine learning is and how it differs from standard programming techniques.
+Without training data, Confounder is nothing more than the software equivalent of a rocket without fuel. To understand why, readers should know what supervised machine learning is and how it differs from standard programming techniques.
 
 **Conditional Statements:** Traditional programming generally consists of code that represents a series of **If-Then-Else** statements. A program takes *input* from a source, executes a *series of steps* with that data that are specified with the *If-Then-Else* statements, and then *outputs* the result. This is the heart of computer science - input is manipulated and results in a new output. This format works well for situations where the data in question takes on rigidly predictable forms. A simple example could be determining if a number is even or odd. This is a *low-dimensional* problem that requires very little code to solve - the corresponding Python code for this problem is simple for even non-programmers to follow:
 
