@@ -3,7 +3,7 @@
 
 &nbsp;
 
-**Summary:** Here is a bullet point summary of the purpose of this project (technical details are [discussed elsewhere](https://github.com/analyticascent/confounder/blob/master/confounder-pipeline.md)).
+**Summary:** Here is a bullet point summary of the purpose of this project (technical details are [discussed elsewhere](https://github.com/analyticascent/confounder/blob/master/confounder_pipeline.md)).
 
 * **What:** A program that can infer whether certain pieces of information are present in passages of text.
 * **Why:** To infer the methodology that was used when claims about the relationship between two variables are made.
