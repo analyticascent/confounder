@@ -30,10 +30,11 @@ Before Confounder can even be used, we need to determine what information does a
 
 &nbsp;
 
-1. **Variables:**
+1. **Metrics:**
     * What are the X and Y variables in question? (this is truly what defines the topic the criteria is for)
     * Are units of measurement for them invariant? ("mass shooting" and "terrorist attacks" are not invariant but individual deaths are, also consider what base rate fallacy means when choosing metrics)
     * If using any composite variables, how were they formed? (how you combine or weigh the components can change the results)
+    * When claims are made about one thing being better or worse than something else by some measure, are figures for the comparison group presented? (*disclose the denominator* is a another way of expressing this point)
 2. **Sampling:**
     * What size? (almost always more is typically better, but only if the sample is representative)
     * What techniques? (random control trials for instance can help make them representative)
