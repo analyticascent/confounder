@@ -70,4 +70,4 @@ To get an idea of how *Confounder* works in practice, consider the claim that re
 
 &nbsp;
 
-*For a more detailed summary of how a Confounder deployment works in practice, read [this markdown file](https://github.com/analyticascent/confounder/blob/master/confounder-pipeline.md).*
+*For a more detailed summary of how a Confounder deployment works in practice, read [this markdown file](https://github.com/analyticascent/confounder/blob/master/confounder_pipeline.md).*
